@@ -4,3 +4,5 @@ dist
 .vitepress/dist
 .vitepress/cache
 .env
+ilocate-backend
+insite-dashboard
