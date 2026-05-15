@@ -82,6 +82,37 @@ _Metrics and status tracking specific to the iLocate pilot program and expansion
 
 ---
 
+## Search Analytics Tab
+_Live search behaviour from the `asset_search_history` table — every row is one nurse search event._
+
+| # | Metric | Description |
+|---|--------|-------------|
+| 39 | [Total Searches](./search/39-total-searches.md) | Count of all search events in the selected time window |
+| 40 | [Success Rate](./search/40-success-rate.md) | Percentage of searches where the asset was successfully located |
+| 41 | [No-Results Rate](./search/41-no-results-rate.md) | Percentage of searches that returned zero candidate assets |
+| 42 | [Top Source](./search/42-top-source.md) | The channel (mobile / kiosk / web) generating the most searches |
+| 43 | [Most Searched Asset Types](./search/43-most-searched-types.md) | Ranked list of search terms by volume with per-type success rate |
+| 44 | [Per-Type Success Rate](./search/44-per-type-success-rate.md) | Found-rate per asset type — highlights which types are hard to locate |
+| 45 | [Source Breakdown](./search/45-source-breakdown.md) | Share of searches by channel with Found / Failed / No-Results split |
+| 46 | [Daily Search Volume Trend](./search/46-daily-volume-trend.md) | 14-day bar chart of search activity |
+| 47 | [Recent Searches Feed](./search/47-recent-searches.md) | Last 25 raw search events — term, source, result, location, time |
+
+---
+
+## Time Range Modifier
+_Applies to: Active Assets, Inactive, High/Low Util counts, Alerts, and all Search Analytics metrics._
+
+| Selector | Window | Hours |
+|---|---|---|
+| Daily | Last 24 hours | 24 |
+| Weekly | Last 7 days | 168 |
+| Monthly _(default)_ | Last 30 days | 720 |
+| Quarterly | Last 90 days | 2160 |
+
+See [FORMULAS.md — Time Range Modifier](./FORMULAS.md#time-range-modifier) for the full SQL pattern.
+
+---
+
 ## Quick Reference: Data Sources
 
 | Table | Used By |
@@ -94,3 +125,4 @@ _Metrics and status tracking specific to the iLocate pilot program and expansion
 | `roi_history` | 11 |
 | `workflow_metrics` | 28, 29, 30, 31, 32, 33 |
 | `pilot_phases` | 38 |
+| `asset_search_history` | 39, 40, 41, 42, 43, 44, 45, 46, 47 |

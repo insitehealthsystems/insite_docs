@@ -2,6 +2,7 @@
 -- Base tables + addition tables for full dashboard coverage.
 -- Run in order: base tables first, then additions at the bottom.
 
+DROP TABLE IF EXISTS asset_search_history CASCADE;
 DROP TABLE IF EXISTS equipment_search_audit CASCADE;
 DROP TABLE IF EXISTS pilot_phases CASCADE;
 DROP TABLE IF EXISTS labor_calc_params CASCADE;
@@ -131,6 +132,48 @@ CREATE TABLE pilot_phases (
     status       VARCHAR(20)  DEFAULT 'Backlog'
                               CHECK (status IN ('Ready', 'Planned', 'Backlog', 'Future', 'Complete')),
     created_at   TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Asset search events logged from mobile/web
+CREATE TABLE IF NOT EXISTS asset_search_history
+(
+    search_audit_id           UUID NOT NULL DEFAULT uuid_generate_v4(),
+    site_id                   UUID NOT NULL,
+    user_id                   UUID,
+    session_id                UUID,
+    search_timestamp          TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
+    asset_type_id             UUID,
+    search_text               VARCHAR(255),
+    search_source             VARCHAR(50) NOT NULL DEFAULT 'mobile',
+    selected_current_location VARCHAR(150),
+    location_zone_id          UUID,
+    last_seen_filter          VARCHAR(50),
+    exclude_patient_rooms     BOOLEAN NOT NULL DEFAULT true,
+    only_reliable_results     BOOLEAN NOT NULL DEFAULT true,
+    search_success_flag       BOOLEAN,
+    no_results_flag           BOOLEAN NOT NULL DEFAULT false,
+    created_at                TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
+    CONSTRAINT asset_search_history_pkey PRIMARY KEY (search_audit_id)
+);
+
+-- Manual status changes logged by nurses / staff
+CREATE TABLE IF NOT EXISTS asset_manual_status_history
+(
+    manual_status_history_id UUID NOT NULL DEFAULT uuid_generate_v4(),
+    asset_id                 UUID NOT NULL,
+    site_id                  UUID,
+    nurse_user_id            UUID,
+    previous_status_code     VARCHAR(40),
+    new_status_code          VARCHAR(40) NOT NULL,
+    status_reason            TEXT,
+    notes                    TEXT,
+    changed_by_name          VARCHAR(150),
+    changed_by_email         VARCHAR(255),
+    created_at               TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
+    CONSTRAINT asset_manual_status_history_pkey PRIMARY KEY (manual_status_history_id),
+    CONSTRAINT chk_manual_asset_status_code CHECK (
+        new_status_code = ANY (ARRAY['AVAILABLE','IN_USE','NEEDS_CLEANING','UNDER_MAINTENANCE','MARKED_MISSING'])
+    )
 );
 
 -- Asset search audit log (production table from iLocate mobile/web)

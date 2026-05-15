@@ -523,7 +523,7 @@ Annual Savings ($) = (T_before − T_after)   [minutes saved per search]
                      × 365                   [days per year]
 ```
 
-**Fully worked:**
+**Fully worked:**its 
 
 ```
 Step 1  Minutes saved per search:  18.0 − 5.8 = 12.2 min
@@ -612,6 +612,191 @@ Impact ratings are based on projected ROI from pilot data. Status is updated by 
 
 ---
 
+## Time Range Modifier
+
+All five time range buttons (Daily / Weekly / Monthly / Quarterly) send a `?range=` query parameter to the API. The backend maps the range to a window in hours and applies it to time-sensitive queries.
+
+```
+Range window (hours):
+  daily     →   24 h
+  weekly    →  168 h  (7 days)
+  monthly   →  720 h  (30 days)   ← default
+  quarterly → 2160 h  (90 days)
+```
+
+**Metrics affected by the range window:**
+
+| Metric | How the window is applied |
+|---|---|
+| Active Assets (#2) | `last_seen >= NOW() - make_interval(hours => X)` |
+| Inactive Assets | inverse of Active Assets within the window |
+| High Utilization Count (#17) | `status = 'high' AND last_seen >= NOW() - make_interval(hours => X)` |
+| Low / Idle Count (#18) | `status IN ('low','idle') AND last_seen >= NOW() - make_interval(hours => X)` |
+| Alerts | `created_at >= NOW() - make_interval(hours => X) AND resolved = false` |
+| ROI Trend chart (#11) | Daily → 7 day bars scaled from latest month ÷ 30; Weekly → 6 week bars ÷ 4.3; Monthly/Quarterly → raw monthly rows |
+| Search Analytics (39–46) | All counts filtered by `search_timestamp >= NOW() - make_interval(hours => X)` |
+
+**Metrics NOT affected** (always show overall system state):
+Departments, Zones, Asset Type table, KPI stored metrics, Workflow metrics, Labor calc params, Pilot phases.
+
+---
+
+## Search Analytics Tab
+
+Populated from the `asset_search_history` table. Every row is one nurse search event recorded in real time.
+
+---
+
+### 39 · Total Searches
+
+```
+Total Searches = COUNT(*)
+                 WHERE search_timestamp >= NOW() − window
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `window` | 720 h (monthly) | Selected time range |
+
+**Result →** `350` (monthly window)
+
+---
+
+### 40 · Success Rate
+
+```
+Success Rate (%) = (COUNT(*) FILTER (WHERE search_success_flag = true)
+                   / COUNT(*)) × 100
+                   WHERE search_timestamp >= NOW() − window
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `search_success_flag` | `true` / `false` / `null` | `asset_search_history.search_success_flag` |
+
+**Result →** `77%` — 77 out of every 100 searches located the asset.
+
+---
+
+### 41 · No-Results Rate
+
+```
+No-Results Rate (%) = (COUNT(*) FILTER (WHERE no_results_flag = true)
+                       / COUNT(*)) × 100
+                       WHERE search_timestamp >= NOW() − window
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `no_results_flag` | `true` / `false` | `asset_search_history.no_results_flag` |
+
+**Result →** `9%` — 9% of searches returned zero candidate assets.
+
+> A no-results rate above 15% suggests sensor coverage gaps or assets that are genuinely missing from the system.
+
+---
+
+### 42 · Top Source
+
+```
+Top Source = search_source with MAX(COUNT(*))
+             WHERE search_timestamp >= NOW() − window
+             GROUP BY search_source
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `search_source` | `'mobile'`, `'kiosk'`, `'web'`, `'api'`, `'desktop'` | `asset_search_history.search_source` |
+
+**Result →** `mobile` (192 searches) — mobile app is the primary search channel.
+
+---
+
+### 43 · Most Searched Asset Types
+
+```
+Search Count per Type = COUNT(*) GROUP BY search_text
+                        WHERE search_timestamp >= NOW() − window
+                          AND search_text IS NOT NULL
+ORDER BY COUNT(*) DESC
+LIMIT 10
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `search_text` | `'Crash Cart'`, `'IV Pump'` | `asset_search_history.search_text` |
+
+**Result →** Crash Cart (39), Ventilator (39), Portable X-Ray (36) — top 3 most searched
+
+---
+
+### 44 · Per-Type Success Rate
+
+```
+Type Success Rate (%) = ROUND(AVG(CASE WHEN search_success_flag THEN 1 ELSE 0 END) × 100)
+                        GROUP BY search_text
+                        WHERE search_timestamp >= NOW() − window
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `search_success_flag` | `true` / `false` | `asset_search_history.search_success_flag` |
+
+**Result →** Crash Cart = 82%, Ventilator = 74% — shown as a colour-coded percentage next to each type in the Most Searched table.
+
+---
+
+### 45 · Source Breakdown
+
+```
+Source Share (%) = (COUNT(*) per source / Total searches) × 100
+                   WHERE search_timestamp >= NOW() − window
+                   GROUP BY search_source
+```
+
+| Source | Count (example) | Share |
+|---|---|---|
+| `mobile` | 192 | 55% |
+| `kiosk` | 84 | 24% |
+| `web` | 74 | 21% |
+
+**Source:** `asset_search_history.search_source`
+
+---
+
+### 46 · Daily Search Volume Trend
+
+```
+Daily Count = COUNT(*) GROUP BY DATE_TRUNC('day', search_timestamp)
+              WHERE search_timestamp >= NOW() − 14 days
+ORDER BY day ASC
+```
+
+| Variable | Example | Source |
+|---|---|---|
+| `search_timestamp` | `2026-05-15 14:32:00+00` | `asset_search_history.search_timestamp` |
+
+Rendered as a 14-bar chart. Bar height scales to the daily maximum. Count label shown above each bar.
+
+> Note: this always shows the last 14 calendar days regardless of the time range selector, to keep the trend readable.
+
+---
+
+### 47 · Recent Searches Feed
+
+No formula — raw rows ordered by `search_timestamp DESC LIMIT 25`.
+
+| Column displayed | Source column |
+|---|---|
+| Asset searched | `search_text` |
+| Source | `search_source` |
+| Result | `search_success_flag` → Found / Failed; `no_results_flag` → No Results |
+| Location | `selected_current_location` |
+| Last-seen filter used | `last_seen_filter` |
+| When | `search_timestamp` → formatted as time ago |
+
+---
+
 ## Summary table
 
 | # | Metric | Formula type | Primary table(s) |
@@ -654,3 +839,13 @@ Impact ratings are based on projected ROI from pilot data. Status is updated by 
 | 36 | Movement Events | Stored (sensor sum) | `metrics` |
 | 37 | Recovery Examples | Stored (manual count) | `metrics` |
 | 38 | Pilot Phase Status | Enum — no formula | `pilot_phases` |
+| — | **Time Range Modifier** | `make_interval(hours => X)` applied to active/alert/search queries | — |
+| 39 | Total Searches | `COUNT(*) WHERE ts >= NOW() − window` | `asset_search_history` |
+| 40 | Success Rate | `COUNT(success) / COUNT(*) × 100` | `asset_search_history` |
+| 41 | No-Results Rate | `COUNT(no_results) / COUNT(*) × 100` | `asset_search_history` |
+| 42 | Top Source | `MAX(COUNT(*)) GROUP BY search_source` | `asset_search_history` |
+| 43 | Most Searched Types | `COUNT(*) GROUP BY search_text ORDER BY count DESC` | `asset_search_history` |
+| 44 | Per-Type Success Rate | `AVG(success_flag::int) × 100 GROUP BY search_text` | `asset_search_history` |
+| 45 | Source Breakdown | `COUNT(*) / total × 100 GROUP BY search_source` | `asset_search_history` |
+| 46 | Daily Volume Trend | `COUNT(*) GROUP BY DATE_TRUNC('day', ts)` last 14 days | `asset_search_history` |
+| 47 | Recent Searches Feed | Raw rows `ORDER BY ts DESC LIMIT 25` — no formula | `asset_search_history` |
