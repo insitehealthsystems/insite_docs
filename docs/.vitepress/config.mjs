@@ -86,6 +86,21 @@ export default defineConfig({
           { text: 'Recovery Examples', link: '/metrics/pilot/37-recovery-examples' },
           { text: 'Pilot Phases', link: '/metrics/pilot/38-pilot-phases' }
         ]
+      },
+      {
+        text: 'Search Analytics',
+        collapsed: true,
+        items: [
+          { text: 'Total Searches', link: '/metrics/search/39-total-searches' },
+          { text: 'Success Rate', link: '/metrics/search/40-success-rate' },
+          { text: 'No-Results Rate', link: '/metrics/search/41-no-results-rate' },
+          { text: 'Top Source', link: '/metrics/search/42-top-source' },
+          { text: 'Most Searched Types', link: '/metrics/search/43-most-searched-types' },
+          { text: 'Per-Type Success Rate', link: '/metrics/search/44-per-type-success-rate' },
+          { text: 'Source Breakdown', link: '/metrics/search/45-source-breakdown' },
+          { text: 'Daily Volume Trend', link: '/metrics/search/46-daily-volume-trend' },
+          { text: 'Recent Searches Feed', link: '/metrics/search/47-recent-searches' }
+        ]
       }
     ],
 
