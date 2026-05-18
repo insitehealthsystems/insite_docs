@@ -336,7 +336,20 @@ CREATE OR REPLACE TRIGGER trg_locations_updated_at
 
 
 
+login_user {
+    id: uuid
+    user_id: uuid
+    username: varchar
+}
 
+user_active_directory {
+    login_user_id: uuid
+    active_directory_id: uuid
+}
 
+active_directory_id {
+    name: varchar 
+
+}
 
 

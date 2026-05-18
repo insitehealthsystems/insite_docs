@@ -6,3 +6,4 @@ dist
 .env
 ilocate-backend
 insite-dashboard
+insite-nextjs
