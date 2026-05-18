@@ -26,4 +26,12 @@ features:
   - title: Asset Management
     details: Real-time tracking of asset classification and purchase avoidance.
     icon: 📦
+  - title: Search Analytics
+    details: Live search behaviour from asset_search_history — success rates, no-results, source breakdown, daily volume, and the most searched equipment types.
+    icon: 🔍
+    link: /metrics/search/39-total-searches
+  - title: Time Range Filtering
+    details: All metrics respond to Daily, Weekly, Monthly, and Quarterly selectors. Active asset counts, alerts, and search data all filter to the chosen window.
+    icon: 🕐
+    link: /metrics/FORMULAS
 ---
