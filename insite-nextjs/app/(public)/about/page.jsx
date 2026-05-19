@@ -1,0 +1,4 @@
+'use client'
+
+import AboutPage from '@/components/AboutPage'
+export default AboutPage

@@ -4,6 +4,12 @@ dist
 .vitepress/dist
 .vitepress/cache
 .env
-ilocate-backend
-insite-dashboard
-insite-nextjs
+
+# insite-nextjs — exclude build artefacts and secrets
+insite-nextjs/.next
+insite-nextjs/node_modules
+insite-nextjs/.env.local
+
+# ilocate-backend — exclude secrets and modules
+ilocate-backend/node_modules
+ilocate-backend/.env
