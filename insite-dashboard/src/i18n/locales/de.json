@@ -1,0 +1,919 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienste",
+    "team": "Team",
+    "blog": "Blog", 
+    "contact": "Kontakt",
+    "adminLogin": "Admin Login",
+    "logout": "Abmelden",
+    "manageBlog": "Blog verwalten",
+    "serviceItems": {
+      "assetTracking": "Asset-Verfolgung",
+      "mobileSecurity": "Mobile Sicherheit",
+      "capitalPlanning": "Kapitalplanung",
+      "siteMonitoring": "Standortüberwachung"
+    }
+  },
+  "header": {
+    "phone": "+(99) 125 696 889 788",
+    "helpDesk": "Helpdesk",
+    "emergency": "Notfall",
+    "bookingNow": "Jetzt Buchen"
+  },
+  "hero": {
+    "title": "Echtzeit-Gerätesichtbarkeit für Moderne Krankenhäuser",
+    "subtitle": "Intelligente, geringbelastende Geräteverfolgung",
+    "description": "Für Krankenhäuser gebaut. Für Einfachheit konzipiert",
+    "tagline": "Mit Datenschutz und Sicherheit an erster Stelle!",
+    "ctaText": "Einen Termin vereinbaren",
+    "getStarted": "Loslegen",
+    "learnMore": "Mehr Erfahren",
+    "watchDemo": "Demo Ansehen"
+  },
+  "homepage": {
+    "howCanWeHelp": "Wie können wir Ihnen helfen?",
+    "howCanWeHelpDesc": "Krankenhäuser verlieren jeden Tag wertvolle klinische Zeit bei der Suche nach mobilen Geräten — Rollstühle, IV-Pumpen, tragbare Bildgebung, Transportgeräte.",
+    "explorePrograms": "Programme Erkunden",
+    "ourAddress": "Unsere Adresse",
+    "address": "7710 Hazard Center Dr # E, California 92108 Vereinigte Staaten.",
+    "stopSearching": "Hören Sie auf zu suchen.",
+    "startDelivering": "Beginnen Sie mit der Pflege.",
+    "stopSearchingDesc": "InSite Health Systems bietet Echtzeit-Gerätesichtbarkeit, damit das Personal sofort finden kann, was es braucht — ohne Arbeitsabläufe zu stören oder Patienten zu verfolgen.",
+    "solutionsTitle": "Gesundheitslösungen für Jeden",
+    "solutionsDesc": "Unsere umfassenden Geräteverfolgungslösungen sind darauf ausgelegt, den einzigartigen Bedürfnissen verschiedener Gesundheitsexperten und Abteilungen zu dienen.",
+    "forNurses": "Für Pflegekräfte",
+    "forNursesFeature1": "Schnell nahe Geräte vor Ort finden",
+    "forNursesFeature2": "Schnell Geräte zuletzt gesehen vor Ort anzeigen",
+    "forNursesFeature3": "Keine zusätzliche Dokumentationsbelastung",
+    "forFacilities": "Für Einrichtungen und Betrieb",
+    "forFacilitiesFeature1": "Identifizieren Sie inaktive oder fehlende Geräte",
+    "forFacilitiesFeature2": "Überwachen Sie die Gerätebewegungshistorie",
+    "forFacilitiesFeature3": "Verbessern Sie Reinigungs- und Nutzungsabläufe",
+    "forExecutives": "Für Führungskräfte",
+    "forExecutivesFeature1": "Gerätenutzungstrends anzeigen",
+    "forExecutivesFeature2": "Übermäßiges Inventar identifizieren",
+    "forExecutivesFeature3": "Datengesteuerte Kapitalentscheidungen treffen",
+    "discoverMore": "Mehr entdecken",
+    "readyToTransform": "Bereit, Ihre Gesundheitsoperationen zu Transformieren?",
+    "readyToTransformDesc": "Schließen Sie sich Hunderten von Gesundheitseinrichtungen an, die ihre Gerätesichtbarkeit und operative Effizienz mit InSite Health Systems verbessert haben.",
+    "scheduleDemo": "Demo Planen",
+    "learnMore": "Mehr Erfahren",
+    "environmentsTitle": "Gesundheitsumgebungen, die Wir Bedienen",
+    "acuteCare": "Akutkrankenhäuser",
+    "emergency": "Notfall- und Traumaeinrichtungen",
+    "specialty": "Spezialkrankenhäuser",
+    "postAcute": "Post-Akute und Erweiterte Pflege",
+    "outpatient": "Ambulante und Ambulante Pflege",
+    "diagnostic": "Diagnose- und Bildgebungszentren",
+    "government": "Staatliche und Institutionelle Gesundheitsversorgung",
+    "multiBuilding": "Mehrbäude-Gesundheitscampus",
+    "mobileField": "Mobile und Feld-Gesundheitsversorgung",
+    "privateNetworks": "Private Gesundheitsnetzwerke",
+    "learnMoreAbout": "Mehr erfahren",
+    "professionalTeamTitle": "Wir sind ein professionelles Team mit über 25 Jahren Erfahrung, leidenschaftlich für unsere Arbeit",
+    "professionalTeamDesc": "Bei InSite Health Systems verstehen wir, dass jede Gesundheitsumgebung einzigartige operative Herausforderungen hat. Unsere Echtzeit-Gerätesichtbarkeitslösungen sind darauf ausgelegt, sich an die spezifischen Bedürfnisse Ihrer Einrichtung anzupassen, egal ob Sie ein großes akademisches medizinisches Zentrum oder eine spezialisierte Ambulanzklinik betreiben.",
+    "teamExperience": "Unser Team bringt jahrzehntelange kombinierte Erfahrung in Gesundheitsoperationen, Technologieimplementierung und Gerätemanagement mit. Wir haben mit Einrichtungen aller Größen gearbeitet, um operative Effizienz zu verbessern und die Zeit zu reduzieren, die das Personal mit der Suche nach kritischen Geräten verbringt.",
+    "hipaaCompliant": "HIPAA-konform",
+    "securePrivate": "Sicher und Privat",
+    "support24_7": "24/7 Support",
+    "alwaysAvailable": "Immer Verfügbar",
+    "aboutInSiteTitle": "Über InSite Health System",
+    "aboutInSiteDesc": "Erfahren Sie mehr über unsere Mission, Vision, Werte und das engagierte Team hinter unseren innovativen Gesundheitstechnologielösungen.",
+    "ourMission": "Unsere Mission",
+    "ourVision": "Unsere Vision",
+    "ourValues": "Unsere Werte",
+    "ourTeam": "Unser Team",
+    "transformingTitle": "Gesundheitstechnologie Transformieren",
+    "transformingDesc1": "InSite Health System widmet sich der Revolutionierung von Krankenhausoperationen durch intelligente, Echtzeit-Gerätesichtbarkeitslösungen.",
+    "transformingDesc2": "Wir bieten modernste Technologie, die Gesundheitsdienstleistern hilft, ihre medizinischen Geräte zu lokalisieren, zu verfolgen und ihre Nutzung zu optimieren.",
+    "transformingDesc3": "Unsere Mission ist es, die Patientenversorgung zu verbessern, indem wir sicherstellen, dass kritische Geräte immer verfügbar sind, wann und wo sie am meisten benötigt werden.",
+    "keyHighlights": "Wichtige Highlights:",
+    "realTimeTracking": "Echtzeit-Asset-Tracking und -Überwachung",
+    "seamlessIntegration": "Nahtlose Integration mit bestehenden Krankenhaussystemen",
+    "privacyFirst": "Datenschutzfokussierter Ansatz für sensible Gesundheitsdaten",
+    "scalableSolutions": "Skalierbare Lösungen für Krankenhäuser aller Größen",
+    "healthcareFacilities": "Gesundheitseinrichtungen",
+    "equipmentTracked": "Verfolgte Geräte",
+    "systemUptime": "System-Betriebszeit",
+    "supportAvailable": "Support Verfügbar"
+  },
+  "about": {
+    "title": "Über InSite Health System",
+    "subtitle": "Gesundheitswesen durch Innovation transformieren",
+    "description": "InSite Health System ist ein führender Anbieter von Gesundheitstechnologie-Lösungen, spezialisiert auf Geräteverwaltung, Echtzeit-Sichtbarkeit und operative Effizienzverbesserungen.",
+    "ourMission": "Unsere Mission",
+    "ourVision": "Unsere Vision",
+    "ourValues": "Unsere Werte",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbAbout": "Über uns",
+    "processTitle": "Unser Prozess",
+    "processSubtitle": "Wie Wir mit Gesundheitseinrichtungen Arbeiten",
+    "processStep1": "Beratung",
+    "processStep1Desc": "Wir analysieren die einzigartigen Geräteverfolgungsbedürfnisse und Herausforderungen Ihrer Einrichtung",
+    "processStep2": "Planung",
+    "processStep2Desc": "Wir entwerfen eine maßgeschneiderte Lösung, die auf Ihre operativen Arbeitsabläufe zugeschnitten ist",
+    "processStep3": "Implementierung",
+    "processStep3Desc": "Unser Expertenteam stellt das System mit minimaler Störung der Operationen bereit",
+    "processStep4": "Support",
+    "processStep4Desc": "Wir bieten kontinuierliche Unterstützung und Optimierung für maximale Effizienz",
+    "teamTitle": "Lernen Sie Unser Expertenteam Kennen",
+    "teamSubtitle": "Führungskräfte in der Gesundheitstechnologie",
+    "whyChooseTitle": "Warum InSite Health System Wählen?",
+    "whyChooseSubtitle": "Bewährte Ergebnisse in der Gesundheitstechnologie",
+    "feature1Title": "Echtzeit-Sichtbarkeit",
+    "feature1Desc": "Sofortige Standortverfolgung aller medizinischen Geräte in Ihrer Einrichtung",
+    "feature2Title": "Einfache Integration",
+    "feature2Desc": "Nahtlose Integration mit bestehenden Krankenhaus-Managementsystemen",
+    "feature3Title": "Bewährter ROI",
+    "feature3Desc": "Messbarer Return on Investment mit verbesserter operativer Effizienz",
+    "feature4Title": "24/7 Support",
+    "feature4Desc": "Rund-um-die-Uhr technischer Support von Gesundheitstechnologie-Experten",
+    "statsTitle": "Vertraut von Gesundheitsführern",
+    "statsSubtitle": "Unser Einfluss auf Gesundheitsoperationen",
+    "stat1Number": "500+",
+    "stat1Label": "Gesundheitseinrichtungen",
+    "stat1Desc": "Krankenhäuser und Kliniken vertrauen unseren Lösungen",
+    "stat2Number": "50k+",
+    "stat2Label": "Verfolgte Geräte",
+    "stat2Desc": "Medizinische Geräte in Echtzeit überwacht",
+    "stat3Number": "99.9%",
+    "stat3Label": "System-Betriebszeit",
+    "stat3Desc": "Zuverlässige Leistung, auf die Sie sich verlassen können",
+    "stat4Number": "80%",
+    "stat4Label": "Eingesparte Zeit",
+    "stat4Desc": "Reduzierung der Gerätesuchzeit",
+    "ctaTitle": "Bereit, Ihre Operationen zu Transformieren?",
+    "ctaDesc": "Kontaktieren Sie unser Team, um zu erfahren, wie InSite Health System die Effizienz Ihrer Einrichtung verbessern kann.",
+    "getStarted": "Heute Starten",
+    "scheduleDemo": "Demo Planen",
+    "pilotProcessTitle": "INSITE HEALTH SYSTEMS PROZESS",
+    "pilotProcessSubtitle": "Unser Pilotprozess",
+    "pilotStep1Title": "Entdecken",
+    "pilotStep1Desc": "Wir beginnen mit einem fokussierten Gespräch, um zu verstehen: Ihre Einrichtungsgröße und -struktur, Zu bewertende Gerätekategorien, Operative Schmerzpunkte, IT- und Compliance-Anforderungen",
+    "pilotStep2Title": "Bereitstellen",
+    "pilotStep2Desc": "Wir entwerfen ein kontrolliertes Pilotprogramm: 20–40 Assets auswählen, Eine Station oder Etage identifizieren, Sichere Gateways installieren, Rollenbasierten Zugang konfigurieren, Kurze Personaleinweisung durchführen",
+    "pilotStep3Title": "Validieren",
+    "pilotStep3Desc": "Während des Pilotzeitraums: Echtzeit-Gerätesichtbarkeit ist aktiv, Gateway- und Systemgesundheit werden überwacht, Nutzungsdaten werden gesammelt, Workflow-Auswirkungen werden gemessen",
+    "pilotStep4Title": "Skalieren",
+    "pilotStep4Desc": "Am Ende des Piloten: Nutzungsmetriken überprüfen, Reduzierung der Suchzeit bewerten, Möglichkeiten zur Kapitaloptimierung identifizieren, Rollout-Strategie für die nächste Phase festlegen",
+    "discoverMore": "Mehr entdecken →",
+    "appDownloadTitle": "APP DOWNLOAD",
+    "appDownloadSubtitle": "Über 1500 weltweite Kunden vertrauen uns",
+    "getItOnGooglePlay": "Jetzt bei",
+    "googlePlay": "Google Play",
+    "downloadOnThe": "Im",
+    "appStore": "App Store laden",
+    "testimonialTitle": "TESTIMONIALS",
+    "testimonialSubtitle": "Unsere besten Kunden",
+    "testimonials": [
+      {
+        "name": "Dr. Clarence Wesley",
+        "position": "CEO-Gründer",
+        "comment": "InSite Health System hat unser Gerätemanagement revolutioniert. Die Echtzeitsichtbarkeit hat unsere operative Effizienz erheblich verbessert."
+      },
+      {
+        "name": "Bennett Harper",
+        "position": "24/7 Support Manager",
+        "comment": "Das Support-Team ist außergewöhnlich. Sie verstehen Gesundheits-Workflows und bieten Lösungen, die in echten Krankenhausumgebungen tatsächlich funktionieren."
+      },
+      {
+        "name": "Dr. Nicolas Poran",
+        "position": "Chief Medical Officer",
+        "comment": "Unser Personal kann sich jetzt mehr auf die Patientenversorgung konzentrieren, anstatt nach Ausrüstung zu suchen. Es war ein Game-Changer für unsere Krankenhausoperationen."
+      }
+    ]
+  },
+  "aboutTabs": {
+    "title": "Über InSite Health System",
+    "subtitle": "Erfahren Sie mehr über unsere Mission, Vision, Werte und das engagierte Team hinter unseren innovativen Gesundheitstechnologielösungen.",
+    "keyHighlights": "Wichtige Highlights:",
+    "mission": {
+      "label": "Unsere Mission",
+      "title": "Gesundheitstechnologie Transformieren",
+      "content": [
+        "InSite Health System widmet sich der Revolutionierung von Krankenhausoperationen durch intelligente, Echtzeit-Gerätesichtbarkeitslösungen.",
+        "Wir bieten modernste Technologie, die Gesundheitsdienstleistern hilft, ihre medizinischen Geräte zu lokalisieren, zu verfolgen und ihre Nutzung zu optimieren.",
+        "Unsere Mission ist es, die Patientenversorgung zu verbessern, indem wir sicherstellen, dass kritische Geräte immer verfügbar sind, wann und wo sie am meisten benötigt werden."
+      ],
+      "features": [
+        "Echtzeit-Asset-Tracking und -Überwachung",
+        "Nahtlose Integration mit bestehenden Krankenhaussystemen",
+        "Datenschutzfokussierter Ansatz für sensible Gesundheitsdaten",
+        "Skalierbare Lösungen für Krankenhäuser aller Größen"
+      ]
+    },
+    "vision": {
+      "label": "Unsere Vision",
+      "title": "Die Zukunft der Intelligenten Gesundheitsversorgung",
+      "content": [
+        "Wir stellen uns ein Gesundheitsökosystem vor, in dem Technologie medizinische Fachkräfte nahtlos bei der Bereitstellung außergewöhnlicher Patientenversorgung unterstützt.",
+        "Unsere Vision erstreckt sich über einfaches Tracking hinaus zur Schaffung intelligenter Systeme, die Gerätebedürfnisse vorhersagen und Krankenhausarbeitsabläufe optimieren.",
+        "Wir streben danach, der globale Marktführer für Gesundheitstechnologielösungen zu sein, die sowohl Effizienz als auch Patientensicherheit priorisieren."
+      ],
+      "features": [
+        "Prädiktive Analytik für Gerätemanagement",
+        "KI-gestützte Optimierungsempfehlungen",
+        "Globales Netzwerk vernetzter Gesundheitseinrichtungen",
+        "Nachhaltige und umweltbewusste Technologie"
+      ]
+    },
+    "values": {
+      "label": "Unsere Werte",
+      "title": "Aufgebaut auf Vertrauen und Innovation",
+      "content": [
+        "Patientensicherheit und Pflegequalität stehen im Mittelpunkt allem, was wir tun.",
+        "Wir glauben an Transparenz, Zuverlässigkeit und die Kraft der Technologie, das Gesundheitswesen zum Besseren zu transformieren.",
+        "Unser Engagement für Datenschutz und Sicherheit stellt sicher, dass sensible Gesundheitsdaten immer geschützt sind."
+      ],
+      "features": [
+        "Patientenfokussierter Ansatz für alle Lösungen",
+        "Kompromissloses Engagement für Datensicherheit",
+        "Kontinuierliche Innovation und Verbesserung",
+        "Kooperative Partnerschaft mit Gesundheitsexperten"
+      ]
+    },
+    "team": {
+      "label": "Unser Team",
+      "title": "Gesundheitstechnologie-Experten",
+      "content": [
+        "Unser vielfältiges Team kombiniert tiefe Gesundheitsexpertise mit modernsten Technologiefähigkeiten.",
+        "Wir umfassen ehemalige Gesundheitsexperten, Software-Ingenieure, Datenwissenschaftler und Branchenveteranen.",
+        "Zusammen bringen wir jahrzehntelange Erfahrung sowohl in Gesundheitsoperationen als auch in Technologieinnovation mit."
+      ],
+      "features": [
+        "Ehemalige Krankenschwestern und Krankenhaus-Administratoren",
+        "Experten-Software-Ingenieure und Entwickler",
+        "Datenwissenschaftler und KI-Spezialisten",
+        "Gesundheitsbranche-Vordenker"
+      ]
+    },
+    "stats": [
+      { "number": "500+", "label": "Gesundheitseinrichtungen" },
+      { "number": "50k+", "label": "Verfolgte Geräte" },
+      { "number": "99.9%", "label": "System-Betriebszeit" },
+      { "number": "24/7", "label": "Support Verfügbar" }
+    ]
+  },
+  "team": {
+    "title": "Lernen Sie Unser Team Kennen",
+    "subtitle": "Jahrzehnte praktischer Erfahrung in Gesundheitswesen, Unternehmenstechnologie und Infrastruktur — vereint durch die Mission, den Krankenhausbetrieb zu transformieren.",
+    "specialties": "Spezialgebiete:",
+    "sectionPrincipal": "Hauptverantwortliche",
+    "sectionExecutive": "Führungsteam",
+    "sectionClinical": "Klinischer Beirat",
+    "sectionClinicalBadge": "Geplant",
+    "sectionClinicalNote": "InSite Health Solutions gründet einen klinischen Beirat aus erfahrenen Gesundheitsfachleuten, der Orientierung zu Workflow-Ausrichtung, Benutzerfreundlichkeit und operativem Einfluss in klinischen Umgebungen bietet.",
+    "sectionDev": "Entwicklungs- und Supportteam",
+    "sectionDevNote": "Unser dediziertes Software- und Systemteam erstellt, implementiert und wartet unternehmensweite Lösungen mit einem Engagement für Sicherheit, Zuverlässigkeit und kontinuierliche Verbesserung.",
+    "philosophy": "Führungsphilosophie",
+    "philosophyItems": [
+      "Erfahrung statt Hype",
+      "Gesundheitsorientiertes Design",
+      "Sicherheit und Compliance standardmäßig",
+      "Operativer Einfluss über theoretische Innovation"
+    ],
+    "bioComingSoon": "Profil folgt in Kürze.",
+    "viewFullTeam": "Das Gesamte Team Kennenlernen",
+    "joinMission": "Bereit, Unserer Mission Beizutreten?",
+    "joinDesc": "Wir suchen immer nach talentierten Personen, die unsere Leidenschaft für die Verbesserung des Gesundheitswesens durch Technologie teilen.",
+    "viewPositions": "Offene Stellen Anzeigen",
+    "contactTeam": "Unser Team Kontaktieren",
+    "stats": [
+      { "value": "50+", "label": "Teammitglieder" },
+      { "value": "15+", "label": "Jahre Erfahrung" },
+      { "value": "200+", "label": "Gesundheitskunden" },
+      { "value": "24/7", "label": "Support" }
+    ],
+    "members": {
+      "principal": [
+        {
+          "name": "Lilian Lynch",
+          "title": "Präsidentin",
+          "role": "Strategische Vision, Marke und organisatorische Führung",
+          "bio": "Lilian Lynch bringt eine kraftvolle Kombination aus Führungsexpertise, strategischer Vision und Markenaufbau-Know-how mit, unterstützt durch eine solide akademische Grundlage in portugiesischer und englischer Literatur. Als Präsidentin gibt sie die Gesamtrichtung für Organisationswachstum, Marktpositionierung und funktionsübergreifende Ausrichtung vor.",
+          "expertise": [
+            "Organisationsstrategie und Führung",
+            "Markenvision, Positionierung und Marktstrategie",
+            "Geschäftsentwicklungs- und Wachstumsinitiativen",
+            "Digitale Strategie und Kommunikationsaufsicht",
+            "Mehrsprachige und interkulturelle Führung"
+          ]
+        }
+      ],
+      "executive": [
+        {
+          "name": "Isaiah Israel",
+          "title": "Direktor für Geschäftsentwicklung und Deployment",
+          "role": "30+ Jahre: Gesundheitswesen, Biotechnologie und Unternehmenssysteme",
+          "bio": "Isaiah Israel bringt über 30 Jahre Erfahrung in Gesundheitswesen, Biotechnologie, Unternehmenssystemen und Technologieinnovation mit. Seine Führung verbindet tiefe technische Expertise mit einem soliden Verständnis operativer Herausforderungen in Gesundheitsumgebungen, insbesondere in den Bereichen Effizienz, Asset-Nutzung und Systeminteroperabilität.",
+          "expertise": [
+            "Strategische Vision und Produktausrichtung",
+            "Ausrichtung auf den Gesundheitsmarkt",
+            "Engagement mit Führungsstakeholdern",
+            "Regulatorische und Compliance-Positionierung",
+            "Gesundheitsbetrieb und Biotechnologieumgebungen"
+          ]
+        },
+        {
+          "name": "Darrell Gaul",
+          "title": "Chief Technology Officer",
+          "role": "30+ Jahre: Unternehmensarchitektur und skalierbare Plattformen",
+          "bio": "Darrell Gaul ist als Fractional CTO tätig und bringt mehr als 30 Jahre Technologieführungserfahrung mit. Er bietet technische Architekturaufsicht, Skalierbarkeitsberatung für Plattformen und Engineering-Best-Practice-Führung, um sicherzustellen, dass der Technologie-Stack von InSite sicher, skalierbar und unternehmensbereit ist.",
+          "expertise": [
+            "Unternehmens-Systemarchitektur",
+            "Skalierbare Softwareplattformen",
+            "Infrastrukturmodernisierung",
+            "Technologiestrategie und -governance",
+            "Risiko- und technisches Schuldenmanagement"
+          ]
+        },
+        {
+          "name": "Ricka Jones",
+          "title": "Senior-Finanz- und Investitionsberaterin",
+          "role": "20+ Jahre: 2,5 Mrd.$ verwaltet, öffentliche Finanzen, CFO/CAO",
+          "bio": "Ricka Jones bringt über 20 Jahre Finanzexpertise mit, darunter die Verwaltung von mehr als 2,5 Milliarden Dollar als Investmentbankerin und die Überwachung von über 1 Milliarde Dollar an Jahresbudgets für öffentliche Fonds. Sie war CFO, Hauptverwaltungsbeamtin und stellvertretende CAO der Stadt Shreveport.",
+          "expertise": [
+            "Investmentbanking und Portfoliomanagement",
+            "Öffentliche Finanzen und Großbudgetüberwachung",
+            "Kapitalplanung und operative Finanzstrategie",
+            "Regulatorische und treuhänderische Compliance",
+            "Vermögensverwaltung und Finanzberatung"
+          ]
+        },
+        {
+          "name": "Kristin Grimes",
+          "title": "Ärztin — Klinische Beraterin",
+          "role": "Compliance im Krankenhausbetrieb und klinische Beratung",
+          "bio": "Dr. Kristin Grimes ist als klinische Beraterin tätig und bringt medizinische Expertise aus erster Hand mit, um sicherzustellen, dass die Lösungen von InSite mit realen klinischen Workflows und den Compliance-Anforderungen des Krankenhausbetriebs übereinstimmen.",
+          "expertise": [
+            "Ausrichtung klinischer Workflows",
+            "Compliance im Krankenhausbetrieb",
+            "Patientensicherheit und Pflegestandards",
+            "Bewertung von Gesundheitstechnologie"
+          ]
+        },
+        {
+          "name": "Anthony Presley",
+          "title": "Deployment- und Support-Manager",
+          "role": "25+ Jahre: Cloud-Netzwerke und Unternehmensinfrastruktur",
+          "bio": "Anthony Presley ist als Senior Cloud-Netzwerkleiter tätig und bringt über 25 Jahre Erfahrung mit. Er ist verantwortlich für die Cloud-Netzwerkstrategie, sichere Konnektivitätsmodelle, Infrastrukturresilienz und die Ausrichtung an Krankenhaus-IT-Netzwerkstandards.",
+          "expertise": [
+            "Cloud-Infrastrukturdesign",
+            "Netzwerkarchitektur und -optimierung",
+            "Sichere Konnektivität für regulierte Umgebungen",
+            "Betriebszuverlässigkeit und Verfügbarkeit",
+            "Ausrichtung an Krankenhaus-IT-Netzwerken"
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "name": "Kristin Grimes",
+          "title": "Ärztin — Klinische Beraterin",
+          "bio": "Dr. Kristin Grimes bringt medizinische Expertise aus erster Hand mit, um sicherzustellen, dass die Lösungen von InSite mit realen klinischen Workflows und den Compliance-Anforderungen des Krankenhausbetriebs übereinstimmen."
+        },
+        {
+          "name": "Laurie Lapina",
+          "title": "Arztassistentin — Klinische Beraterin",
+          "bio": "Profil folgt in Kürze."
+        }
+      ],
+      "dev": [
+        { "name": "Kayshundra Wilson", "title": "Personalleiterin" },
+        { "name": "Rejoice Uahomo", "title": "Softwareentwicklungsmanagerin" },
+        { "name": "Olaiya Basit", "title": "Softwaretestmanager" },
+        { "name": "Justin Anyanwu", "title": "Leitender Full-Stack-Entwickler" },
+        { "name": "Ahmad Sheik", "title": "Leitender Front-End-Entwickler" },
+        { "name": "Emmanuel Uchewa", "title": "Leitender UI/UX-Designer" }
+      ]
+    }
+  },
+  "whyChoose": {
+    "title": "Warum",
+    "titleHighlight": " InSite Health System Wählen?",
+    "subtitle": "Unsere umfassende Gerätesichtbarkeitsplattform ist speziell für Gesundheitsumgebungen konzipiert und gewährleistet Zuverlässigkeit, Sicherheit und Benutzerfreundlichkeit, der medizinische Fachkräfte vertrauen können.",
+    "getStarted": "Heute Starten",
+    "scheduleDemo": "Demo Planen",
+    "videoOverview": "2:30 Überblick",
+    "videoTitle": "InSite Health System Überblick",
+    "videoComingSoon": "Video-Inhalte Bald Verfügbar",
+    "videoDesc": "InSite Health System Überblick - Echtzeit-Gerätesichtbarkeits-Demo",
+    "features": [
+      {
+        "title": "Datenschutz und Sicherheit Zuerst",
+        "description": "HIPAA-konforme Lösungen mit Ende-zu-Ende-Verschlüsselung und robusten Sicherheitsprotokollen."
+      },
+      {
+        "title": "Echtzeit-Sichtbarkeit",
+        "description": "Sofortige Gerätestandort- und Statusupdates in Ihrer gesamten Gesundheitseinrichtung."
+      },
+      {
+        "title": "Einfache Integration",
+        "description": "Nahtlose Integration mit bestehenden Krankenhaus-Managementsystemen und Arbeitsabläufen."
+      },
+      {
+        "title": "Verbesserte Effizienz",
+        "description": "Reduzieren Sie die Gerätesuchzeit um bis zu 80% und optimieren Sie die Nutzungsraten."
+      },
+      {
+        "title": "Bewährte Ergebnisse",
+        "description": "Vertraut von über 500 Gesundheitseinrichtungen weltweit mit messbarem ROI."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Rund-um-die-Uhr technischer Support und Verfügbarkeit des Kundenerfolgs-Teams."
+      }
+    ],
+    "stats": [
+      { "number": "80%", "label": "Reduzierung der Gerätesuchzeit" },
+      { "number": "95%", "label": "Benutzerzufriedenheitsrate" },
+      { "number": "40%", "label": "Verbesserung der Gerätenutzung" },
+      { "number": "99.9%", "label": "System-Betriebszeitgarantie" }
+    ],
+    "testimonial": {
+      "quote": "InSite Health System hat die Art und Weise transformiert, wie wir unsere medizinischen Geräte verwalten. Die Echtzeit-Sichtbarkeit und prädiktive Analytik haben unsere operative Effizienz und Patientenversorgungsqualität erheblich verbessert.",
+      "name": "Dr. Amanda Clarke",
+      "position": "Leiterin Operationen",
+      "organization": "Metro General Hospital"
+    }
+  },
+  "statistics": {
+    "title": "Vertraut von Gesundheitsführern Weltweit",
+    "subtitle": "Unsere Plattform liefert messbare Ergebnisse und hat das Vertrauen von Gesundheitsexperten rund um den Globus gewonnen.",
+    "stats": [
+      {
+        "number": 500,
+        "suffix": "+",
+        "label": "Gesundheitseinrichtungen",
+        "description": "Krankenhäuser und Kliniken vertrauen unseren Lösungen"
+      },
+      {
+        "number": 50000,
+        "suffix": "+",
+        "label": "Verfolgte Geräte",
+        "description": "Medizinische Geräte in Echtzeit überwacht"
+      },
+      {
+        "number": 25000,
+        "suffix": "+",
+        "label": "Gesundheitsexperten",
+        "description": "Medizinisches Personal, das unsere Plattform täglich nutzt"
+      },
+      {
+        "number": 99.9,
+        "suffix": "%",
+        "label": "System-Betriebszeit",
+        "description": "Zuverlässige Leistung, auf die Sie sich verlassen können"
+      },
+      {
+        "number": 80,
+        "suffix": "%",
+        "label": "Eingesparte Zeit",
+        "description": "Reduzierung der Gerätesuchzeit"
+      },
+      {
+        "number": 100,
+        "suffix": "%",
+        "label": "HIPAA-Konform",
+        "description": "Vollständige Einhaltung der Gesundheitsvorschriften"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Branchenanerkennung",
+        "description": "Gewinner des Gesundheitsinnovationspreises 2023"
+      },
+      {
+        "title": "Sicherheit Zertifiziert",
+        "description": "SOC 2 Type II und HIPAA-konforme Plattform"
+      },
+      {
+        "title": "Bewährter ROI",
+        "description": "Durchschnittlich 300% Return on Investment innerhalb von 12 Monaten"
+      }
+    ],
+    "ctaTitle": "Bereit, Diesen Erfolgsgeschichten Beizutreten?",
+    "ctaDesc": "Entdecken Sie, wie InSite Health System das Gerätemanagement Ihrer Gesundheitseinrichtung transformieren und die Patientenversorgung verbessern kann.",
+    "getStarted": "Heute Starten",
+    "scheduleDemo": "Demo Planen"
+  },
+  "faq": {
+    "title": "Häufig Gestellte Fragen",
+    "subtitle": "Erhalten Sie Antworten auf häufige Fragen zu InSite Health Systems Gerätesichtbarkeitslösungen und dem Implementierungsprozess.",
+    "stillHaveQuestions": "Haben Sie Noch Fragen?",
+    "stillHaveQuestionsDesc": "Unsere Gesundheitstechnologie-Experten sind hier, um zu helfen. Erhalten Sie personalisierte Antworten und erfahren Sie, wie InSite Ihrer spezifischen Einrichtung nutzen kann.",
+    "contactTeam": "Unser Team Kontaktieren",
+    "scheduleDemo": "Demo Planen",
+    "questions": [
+      {
+        "question": "Wie verfolgt InSite Health System medizinische Geräte?",
+        "answer": "InSite verwendet fortschrittliche IoT-Sensoren und RFID-Technologie, um Echtzeit-Standortverfolgung medizinischer Geräte in Ihrer Einrichtung zu bieten. Unsere Sensoren sind speziell für Gesundheitsumgebungen entwickelt und integrieren sich nahtlos in die bestehende Krankenhausinfrastruktur, ohne den täglichen Betrieb zu stören."
+      },
+      {
+        "question": "Ist das System HIPAA-konform und sicher?",
+        "answer": "Ja, InSite Health System ist vollständig HIPAA-konform mit Ende-zu-Ende-Verschlüsselung, sicherer Datenübertragung und umfassenden Audit-Trails. Wir halten die SOC 2 Type II-Zertifizierung und implementieren branchenführende Sicherheitsmaßnahmen zum Schutz sensibler Gesundheitsdaten."
+      },
+      {
+        "question": "Wie lange dauert die Implementierung normalerweise?",
+        "answer": "Die Implementierung variiert je nach Einrichtungsgröße und Komplexität, dauert aber normalerweise 2-4 Wochen für die meisten Krankenhäuser. Unser Prozess umfasst Standortbewertung, Sensor-Installation, Personalschulung und Systemintegration. Wir arbeiten nach Ihrem Zeitplan, um Störungen der Patientenversorgung zu minimieren."
+      },
+      {
+        "question": "Kann InSite sich in unser bestehendes Krankenhaus-Managementsystem integrieren?",
+        "answer": "Absolut. InSite ist für die Integration mit wichtigen Krankenhaus-Managementsystemen einschließlich Epic, Cerner, Meditech und anderen entwickelt. Unser API-first-Ansatz gewährleistet nahtlosen Datenfluss zwischen Systemen und erhält Ihre bestehenden Arbeitsabläufe."
+      },
+      {
+        "question": "Welche Arten von medizinischen Geräten können verfolgt werden?",
+        "answer": "InSite kann praktisch jede medizinische Ausrüstung verfolgen, einschließlich Rollstühle, IV-Pumpen, Beatmungsgeräte, Patientenmonitore, Betten, chirurgische Instrumente und mobile Diagnosegeräte. Unsere flexible Sensortechnologie passt sich verschiedenen Gerätetypen und -größen an."
+      },
+      {
+        "question": "Wie viel kostet InSite Health System?",
+        "answer": "Die Preise sind auf Ihre Einrichtungsgröße, Anzahl der Assets und spezifische Anforderungen zugeschnitten. Wir bieten flexible Abonnementmodelle ohne Vorab-Hardware-Kosten. Kontaktieren Sie uns für ein personalisiertes Angebot und eine ROI-Analyse basierend auf Ihren Bedürfnissen."
+      },
+      {
+        "question": "Welche Art von Support und Schulung bieten Sie?",
+        "answer": "Wir bieten umfassenden 24/7-technischen Support, anfängliche Personalschulung, laufende Bildungsprogramme und dediziertes Kundenerfolgsmanagement. Unser Support-Team umfasst Gesundheitstechnologie-Spezialisten, die Krankenhausoperationen verstehen."
+      },
+      {
+        "question": "Kann das System bei regulatorischer Compliance und Berichterstattung helfen?",
+        "answer": "Ja, InSite generiert automatisch Compliance-Berichte für Joint Commission, CMS und andere regulatorische Anforderungen. Das System führt detaillierte Audit-Trails, Gerätenutzungsberichte und Wartungsplanung zur Unterstützung Ihrer Compliance-Bemühungen."
+      },
+      {
+        "question": "Was passiert, wenn Geräte den bezeichneten Bereich verlassen?",
+        "answer": "InSite bietet Echtzeit-Benachrichtigungen, wenn sich Geräte außerhalb bezeichneter Zonen bewegen oder die Einrichtung verlassen. Sie können benutzerdefinierte Alarmregeln, Benachrichtigungseinstellungen und automatisierte Arbeitsabläufe festlegen, um sicherzustellen, dass kritische Geräte dort bleiben, wo sie benötigt werden."
+      },
+      {
+        "question": "Wie verbessert InSite die Patientenversorgung und operative Effizienz?",
+        "answer": "Durch die Reduzierung der Gerätesuchzeit um bis zu 80% ermöglicht InSite dem Personal, sich mehr auf die Patientenversorgung zu konzentrieren. Das System optimiert auch die Gerätenutzung, reduziert Geräteverluste, verbessert die Wartungsplanung und bietet datengesteuerte Erkenntnisse für bessere Ressourcenverteilung."
+      }
+    ]
+  },
+  "services": {
+    "title": "Unsere Dienste",
+    "subtitle": "Umfassende Gesundheitslösungen",
+    "equipmentTracking": "Geräteverfolgung",
+    "equipmentTrackingDesc": "Echtzeit-Standort- und Statusüberwachung medizinischer Geräte",
+    "dataAnalytics": "Datenanalyse", 
+    "dataAnalyticsDesc": "Erweiterte Berichterstattung und prädiktive Analytik für operative Erkenntnisse",
+    "integration": "Systemintegration",
+    "integrationDesc": "Nahtlose Integration in bestehende Krankenhaus-Managementsysteme",
+    "support": "24/7 Support",
+    "supportDesc": "Rund um die Uhr technischer Support und Wartungsdienstleistungen"
+  },
+  "blog": {
+    "title": "Gesundheitstechnologie-Einblicke",
+    "subtitle": "Bleiben Sie über die neuesten Trends, Best Practices und Innovationen in der Gesundheitstechnologie und dem Gerätemanagement informiert.",
+    "readMore": "Mehr Lesen",
+    "readTime": "Min Lesezeit",
+    "comments": "Kommentare",
+    "publishedOn": "Veröffentlicht am",
+    "author": "Autor",
+    "category": "Kategorie",
+    "tags": "Tags",
+    "categoriesLabel": "Kategorien",
+    "recentPosts": "Aktuelle Beiträge",
+    "searchPlaceholder": "Artikel suchen...",
+    "noResults": "Keine Artikel gefunden, die Ihrer Suche entsprechen.",
+    "loadMore": "Mehr Artikel Laden",
+    "viewAllPosts": "Alle Beiträge Anzeigen",
+    "featured": "Empfohlen",
+    "allPosts": "Alle Beiträge",
+    "aboutAuthor": "Über den Autor",
+    "viewAllPostsBy": "Alle Beiträge von {{name}} anzeigen →",
+    "leaveComment": "Kommentar hinterlassen",
+    "commentName": "Name",
+    "commentEmail": "E-Mail",
+    "commentWebsite": "Webseite",
+    "commentMessage": "Kommentar",
+    "postComment": "Kommentar veröffentlichen",
+    "shareLabel": "Teilen",
+    "youMightAlsoLike": "Das könnte Ihnen auch gefallen",
+    "article": "Artikel",
+    "loadingArticle": "Artikel wird geladen...",
+    "translating": "Übersetzung läuft...",
+    "notFound": "Artikel nicht gefunden",
+    "notFoundDesc": "Der gesuchte Artikel existiert nicht oder wurde entfernt.",
+    "commentSubmitted": "Ihr Kommentar wurde eingereicht!",
+    "commentError": "Kommentar konnte nicht eingereicht werden. Bitte versuchen Sie es erneut.",
+    "subscribing": "Wird abonniert...",
+    "subscribeSuccess": "Erfolgreich abonniert! Überprüfen Sie Ihren Posteingang.",
+    "subscribeError": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+    "noPostsInCategory": "Keine Beiträge in dieser Kategorie gefunden.",
+    "noPostsFound": "Keine Beiträge gefunden",
+    "noPostsInCategoryDesc": "Es gibt noch keine Beiträge in der Kategorie \"{{name}}\".",
+    "noPostsTaggedDesc": "Es gibt noch keine Beiträge mit dem Tag \"{{tag}}\".",
+    "backToAllPosts": "Zurück zu Allen Beiträgen",
+    "browseAllPosts": "Alle Beiträge durchsuchen",
+    "articleCount_one": "{{count}} Artikel in dieser Kategorie",
+    "articleCount_other": "{{count}} Artikel in dieser Kategorie",
+    "tagCount_one": "{{count}} Artikel mit diesem Thema getaggt",
+    "tagCount_other": "{{count}} Artikel mit diesem Thema getaggt",
+    "tagLabel": "Schlagwort",
+    "failedToLoad": "Beiträge konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "tryAgain": "Erneut versuchen",
+    "loadingTags": "Tags werden geladen...",
+    "newsletter": {
+      "title": "Bleiben Sie auf dem Laufenden mit Gesundheitstechnologie-Einblicken",
+      "description": "Abonnieren Sie unseren Newsletter und erhalten Sie die neuesten Artikel, Fallstudien und Brancheneinblicke direkt in Ihr Postfach.",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "subscribe": "Jetzt Abonnieren",
+      "privacy": "Kein Spam, jederzeit abbestellbar. Es gelten Datenschutzbestimmungen."
+    },
+    "categories": {
+      "healthcareTech": "Gesundheitstechnologie",
+      "digitalHealth": "Digitale Gesundheit",
+      "compliance": "Compliance",
+      "assetManagement": "Asset-Management",
+      "telemedicine": "Telemedizin",
+      "mobileHealth": "Mobile Gesundheit",
+      "dataAnalytics": "Datenanalytik",
+      "patientSafety": "Patientensicherheit",
+      "healthcareEconomics": "Gesundheitsökonomie",
+      "caseStudy": "Fallstudie",
+      "technology": "Technologie"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie InSite Health System",
+    "subtitle": "Bereit, das Gerätemanagement Ihrer Gesundheitseinrichtung zu transformieren? Kontaktieren Sie unsere Experten, um eine Demo zu planen oder mehr über unsere Lösungen zu erfahren.",
+    "contactInformation": "Kontaktinformationen",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "businessHours": "Geschäftszeiten",
+    "responseTime": "Antwortzeit",
+    "supportAvailable": "Support Verfügbar",
+    "scheduleAppointment": "Termin Vereinbaren",
+    "generalContact": "Allgemeiner Kontakt",
+    "fullName": "Vollständiger Name",
+    "emailAddress": "E-Mail-Adresse",
+    "phoneNumber": "Telefonnummer",
+    "organization": "Organisation",
+    "appointmentType": "Terminart",
+    "preferredDate": "Bevorzugtes Datum",
+    "preferredTime": "Bevorzugte Zeit",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "additionalInformation": "Zusätzliche Informationen",
+    "sendMessage": "Nachricht Senden",
+    "scheduleAppointmentBtn": "Termin Vereinbaren",
+    "required": "*",
+    "placeholders": {
+      "fullName": "Geben Sie Ihren vollständigen Namen ein",
+      "email": "Geben Sie Ihre E-Mail ein",
+      "phone": "Geben Sie Ihre Telefonnummer ein",
+      "organization": "Krankenhaus- oder Organisationsname",
+      "appointmentType": "Terminart auswählen",
+      "preferredTime": "Bevorzugte Zeit auswählen",
+      "subject": "Geben Sie den Nachrichtenbetreff ein",
+      "message": "Geben Sie Ihre Nachricht ein",
+      "additionalInfo": "Erzählen Sie uns von Ihren spezifischen Bedürfnissen oder Fragen"
+    },
+    "appointmentTypes": {
+      "productDemo": "Produktdemo",
+      "consultation": "Beratung",
+      "implementationPlanning": "Implementierungsplanung",
+      "technicalSupport": "Technischer Support",
+      "partnershipDiscussion": "Partnerschaftsdiskussion",
+      "other": "Sonstiges"
+    },
+    "timeSlots": {
+      "9am": "9:00 - 10:00",
+      "10am": "10:00 - 11:00",
+      "11am": "11:00 - 12:00",
+      "1pm": "13:00 - 14:00",
+      "2pm": "14:00 - 15:00",
+      "3pm": "15:00 - 16:00",
+      "4pm": "16:00 - 17:00"
+    },
+    "contactDetails": {
+      "addressFull": "123 Gesundheitstechnologie Boulevard\nSuite 500\nMedical District, CA 90210",
+      "salesPhone": "Vertrieb: (555) 123-4567",
+      "supportPhone": "Support: (555) 123-4568",
+      "salesEmail": "vertrieb@insitehealth.com",
+      "supportEmail": "support@insitehealth.com",
+      "businessHours": "Montag - Freitag: 8:00 - 18:00 PST",
+      "emergencySupport": "24/7 Notfall-Support Verfügbar"
+    },
+    "quickStats": {
+      "responseTime": "<1Std",
+      "responseTimeLabel": "Antwortzeit",
+      "support247": "24/7",
+      "supportLabel": "Support Verfügbar"
+    },
+    "messages": {
+      "success": "Danke! Ihre {{type}} wurde erfolgreich gesendet. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "appointmentSuccess": "Terminanfrage",
+      "messageSuccess": "Nachricht",
+      "error": "Entschuldigung, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    },
+    "pageTitle": "Kontakt",
+    "pageSubtitle": "Wir helfen Ihnen dabei, das Gerätemanagement Ihres Krankenhauses zu transformieren.",
+    "getInTouch": "Kontakt Aufnehmen",
+    "ourLocation": "Unser Standort",
+    "callUs": "Rufen Sie Uns An",
+    "emailUs": "Schreiben Sie Uns",
+    "formTitle": "Senden Sie Uns eine Nachricht",
+    "services": {
+      "productDemo": "Produkt-Demo",
+      "technicalSupport": "Technischer Support",
+      "generalInquiry": "Allgemeine Anfrage",
+      "partnership": "Partnerschaft",
+      "pricing": "Preisgestaltung",
+      "other": "Sonstiges"
+    }
+  },
+  "footer": {
+    "description": "Führender Anbieter von Gesundheitstechnologie-Lösungen mit Fokus auf Geräteverwaltung und operative Effizienz.",
+    "quickLinks": "Schnelllinks",
+    "services": "Dienste",
+    "contact": "Kontaktinformationen",
+    "followUs": "Folgen Sie Uns",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Abonnieren Sie, um die neuesten Updates und Erkenntnisse zu erhalten",
+    "enterEmail": "E-Mail eingeben",
+    "subscribe": "Abonnieren",
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "stayConnected": "Bleiben Sie Verbunden",
+    "companyTagline": "Gesundheitsversorgung durch intelligente Geräteverfolgungstechnologie transformieren.",
+    "links": {
+      "home": "Startseite",
+      "about": "Über Uns",
+      "services": "Dienste",
+      "team": "Unser Team",
+      "blog": "Blog und Einblicke",
+      "contact": "Kontakt"
+    },
+    "certLabels": {
+      "hipaa": "HIPAA-Konform",
+      "iso": "ISO 27001 Zertifiziert",
+      "soc2": "SOC 2 Konform"
+    },
+    "certTitle": "Sicherheit und Compliance",
+    "copyrightPrefix": "©",
+    "copyrightSuffix": "InSite Health Systems. Alle Rechte vorbehalten.",
+    "builtWith": "Mit ❤️ für Gesundheitsfachleute entwickelt"
+  },
+  "login": {
+    "title": "Willkommen Zurück", 
+    "subtitle": "Melden Sie sich an, um Ihren Blog-Inhalt zu verwalten",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "signIn": "Zum Dashboard Anmelden",
+    "signingIn": "Anmeldung läuft...",
+    "emailPlaceholder": "E-Mail eingeben",
+    "passwordPlaceholder": "Passwort eingeben",
+    "demoAccounts": "Schnellanmeldung - Demo-Konten:",
+    "adminAccount": "Admin-Konto",
+    "editorAccount": "Editor-Konto", 
+    "authorAccount": "Autor-Konto",
+    "clickToUse": "Klicken zum Verwenden",
+    "tip": "Tipp: Klicken Sie auf ein Demo-Konto oben, um Anmeldedaten automatisch auszufüllen",
+    "backToWebsite": "Zurück zur Website",
+    "needHelp": "Hilfe benötigt? Kontaktieren Sie Ihren Systemadministrator"
+  },
+  "dashboard": {
+    "title": "Blog-Verwaltungs-Dashboard",
+    "welcome": "Willkommen zurück",
+    "totalPosts": "Gesamte Beiträge",
+    "publishedPosts": "Veröffentlichte Beiträge", 
+    "draftPosts": "Entwürfe",
+    "totalViews": "Gesamte Aufrufe",
+    "createNewPost": "Neuen Beitrag Erstellen",
+    "managePosts": "Beiträge Verwalten",
+    "recentActivity": "Aktuelle Aktivität",
+    "quickStats": "Schnellstatistiken"
+  },
+  "editor": {
+    "createNewPost": "Neuen Beitrag Erstellen",
+    "editPost": "Beitrag Bearbeiten",
+    "title": "Titel",
+    "excerpt": "Auszug",
+    "content": "Inhalt",
+    "category": "Kategorie",
+    "tags": "Tags",
+    "featuredImage": "Hauptbild",
+    "seoSettings": "SEO-Einstellungen",
+    "metaTitle": "Meta-Titel",
+    "metaDescription": "Meta-Beschreibung",
+    "keywords": "Schlüsselwörter",
+    "publishSettings": "Veröffentlichungseinstellungen",
+    "status": "Status",
+    "draft": "Entwurf",
+    "published": "Veröffentlicht",
+    "scheduled": "Geplant",
+    "archived": "Archiviert",
+    "publishDate": "Veröffentlichungsdatum",
+    "scheduledFor": "Geplant für",
+    "schedulePanel": "Planen",
+    "publishStatus": "Veröffentlichungsstatus",
+    "schedulePost": "Beitrag Planen",
+    "updateSchedule": "Zeitplan Aktualisieren",
+    "publishedNow": "Veröffentlicht",
+    "saveAsDraft": "Als Entwurf Speichern",
+    "publish": "Jetzt Veröffentlichen",
+    "update": "Beitrag Aktualisieren",
+    "multiLanguageEditor": "Mehrsprachiger Blog-Editor",
+    "titlePlaceholder": "Geben Sie den Blog-Titel ein...",
+    "excerptPlaceholder": "Geben Sie einen kurzen Auszug ein...",
+    "contentPlaceholder": "Schreiben Sie Ihren Blog-Inhalt hier...",
+    "tagsPlaceholder": "Geben Sie Tags getrennt durch Kommas ein",
+    "tagsHelper": "Trennen Sie Tags mit Kommas (z.B. KI, Gesundheitswesen, Technologie)",
+    "saveAllLanguages": "Alle Sprachen Speichern",
+    "translationTips": "Übersetzungstipps",
+    "tip1": "Englisch ist die Basissprache - erstellen Sie Inhalte immer zuerst auf Englisch",
+    "tip2": "Fügen Sie Übersetzungen in anderen Sprachen hinzu, um ein breiteres Publikum zu erreichen",
+    "tip3": "Benutzer sehen automatisch die beste verfügbare Sprachversion",
+    "autoSave": "Auto Save",
+    "autoSaveEnabled": "Auto save enabled",
+    "autoSaveDisabled": "Auto save disabled",
+    "lastSaved": "Last saved",
+    "unsavedChanges": "Unsaved changes",
+    "wordCount": "Word count",
+    "characterCount": "Character count",
+    "readingTime": "Reading time",
+    "minutes": "min read",
+    "insertImage": "Insert Image",
+    "insertLink": "Insert Link",
+    "insertTable": "Insert Table",
+    "insertCode": "Insert Code Block",
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "strikethrough": "Strikethrough",
+    "heading1": "Heading 1",
+    "heading2": "Heading 2",
+    "heading3": "Heading 3",
+    "bulletList": "Bullet List",
+    "numberedList": "Numbered List",
+    "blockquote": "Blockquote",
+    "horizontalRule": "Horizontal Rule",
+    "undo": "Undo",
+    "redo": "Redo",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "preview": "Preview",
+    "splitView": "Split View",
+    "sourceCode": "Source Code",
+    "uploadImage": "Upload Image",
+    "imageUrl": "Image URL",
+    "imageAlt": "Alt Text",
+    "imageCaption": "Caption",
+    "linkUrl": "Link URL",
+    "linkText": "Link Text",
+    "openInNewTab": "Open in new tab",
+    "removeLink": "Remove Link",
+    "tableRows": "Rows",
+    "tableColumns": "Columns",
+    "addRow": "Add Row",
+    "removeRow": "Remove Row",
+    "addColumn": "Add Column",
+    "removeColumn": "Remove Column"
+  },
+  "common": {
+    "startYourPilot": "Pilot starten",
+    "loading": "Lädt...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Anzeigen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sortBy": "Sortieren nach",
+    "date": "Datum",
+    "title": "Titel",
+    "status": "Status",
+    "actions": "Aktionen",
+    "yes": "Ja",
+    "no": "Nein",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "page": "Seite",
+    "of": "von",
+    "showing": "Zeige",
+    "results": "Ergebnisse",
+    "editingIn": "Bearbeitung in",
+    "addLanguage": "+ Sprache hinzufügen",
+    "translationsAvailable": "Übersetzungen verfügbar",
+    "editingLanguage": "Bearbeitungssprache",
+    "back": "Zurück",
+    "editingAs": "Bearbeitung als",
+    "selectLanguage": "Sprache Auswählen",
+    "languageSaved": "Sprache erfolgreich gespeichert"
+  },
+  "errors": {
+    "somethingWentWrong": "Etwas ist schief gelaufen",
+    "pageNotFound": "Seite nicht gefunden",
+    "accessDenied": "Zugriff verweigert",
+    "invalidCredentials": "Ungültige E-Mail oder Passwort",
+    "networkError": "Netzwerkfehler. Bitte versuchen Sie es erneut.",
+    "requiredField": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+  }
+}

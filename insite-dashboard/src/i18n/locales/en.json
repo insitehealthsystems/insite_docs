@@ -1,0 +1,975 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Team",
+    "blog": "Blog", 
+    "contact": "Contact",
+    "adminLogin": "Admin Login",
+    "logout": "Logout",
+    "manageBlog": "Manage Blog",
+    "serviceItems": {
+      "assetTracking": "Asset Tracking",
+      "mobileSecurity": "Mobile Security",
+      "capitalPlanning": "Capital Planning",
+      "siteMonitoring": "Site Monitoring"
+    }
+  },
+  "header": {
+    "phone": "+(99) 125 696 889 788",
+    "helpDesk": "Help desk",
+    "emergency": "Emergency",
+    "bookingNow": "Booking Now"
+  },
+  "hero": {
+    "title": "Real-Time Equipment Visibility for Modern Hospitals",
+    "subtitle": "Founding Hospital Partner Program — Accepting 2–3 Applicants",
+    "description": "Built for Hospitals. Designed for Simplicity",
+    "tagline": "Free pilot hardware · Locked-in pricing · Guaranteed ROI measurement · Direct roadmap influence",
+    "ctaText": "Make an appointment",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "watchDemo": "Watch Demo"
+  },
+  "homepage": {
+    "howCanWeHelp": "How can we help you?",
+    "howCanWeHelpDesc": "Hospitals lose valuable clinical time every day searching for mobile equipment — wheelchairs, IV pumps, portable imaging, transport devices.",
+    "explorePrograms": "Explore Programs",
+    "ourAddress": "Our Address",
+    "address": "7710 Hazard Center Dr # E, California 92108 United States.",
+    "stopSearching": "Stop Searching.",
+    "startDelivering": "Start Delivering Care.",
+    "stopSearchingDesc": "InSite Health Systems provides real‑time equipment visibility so staff can instantly locate what they need — without disrupting workflows or tracking patients.",
+    "solutionsTitle": "Healthcare Solutions for Everyone",
+    "solutionsDesc": "Our comprehensive equipment tracking solutions are designed to serve the unique needs of different healthcare professionals and departments.",
+    "forNurses": "For Nurses",
+    "forNursesFeature1": "Quickly find nearby equipment",
+    "forNursesFeature2": "Quickly view equipment last-seen location",
+    "forNursesFeature3": "No extra documentation burden",
+    "forFacilities": "For Facilities & Operations",
+    "forFacilitiesFeature1": "Identify idle or missing equipment",
+    "forFacilitiesFeature2": "Monitor equipment movement history",
+    "forFacilitiesFeature3": "Improve cleaning & use workflows",
+    "forExecutives": "For Executives",
+    "forExecutivesFeature1": "View equipment utilization trends",
+    "forExecutivesFeature2": "Identify excessive inventory", 
+    "forExecutivesFeature3": "Make data‑driven capital decisions",
+    "discoverMore": "Discover more",
+    "readyToTransform": "Ready to Transform Your Healthcare Operations?",
+    "readyToTransformDesc": "We're selecting 2–3 Founding Hospital Partners to pilot InSite — and shape the product roadmap. Significant benefits. Zero long-term commitment.",
+    "scheduleDemo": "Schedule a Demo",
+    "learnMore": "Learn More",
+    "environmentsTitle": "Healthcare Environments We Serve",
+    "acuteCare": "Acute Care Hospitals",
+    "emergency": "Emergency & Trauma Facilities",
+    "specialty": "Specialty Hospitals", 
+    "postAcute": "Post‑Acute & Extended Care",
+    "outpatient": "Outpatient & Ambulatory Care",
+    "diagnostic": "Diagnostic & Imaging Centers",
+    "government": "Government & Institutional Healthcare",
+    "multiBuilding": "Multi‑Building Healthcare Campuses",
+    "mobileField": "Mobile & Field Healthcare",
+    "privateNetworks": "Private Healthcare Networks",
+    "learnMoreAbout": "Learn more",
+    "professionalTeamTitle": "We are professional team, over 25 years of experience passionate about our work",
+    "professionalTeamDesc": "At InSite Health Systems, we understand that every healthcare environment has unique operational challenges. Our real-time equipment visibility solutions are designed to adapt to the specific needs of your facility, whether you're running a large academic medical center or a specialized outpatient clinic.",
+    "teamExperience": "Our team brings decades of combined experience in healthcare operations, technology implementation, and equipment management. We've worked with facilities of all sizes to improve operational efficiency and reduce the time staff spend searching for critical equipment.",
+    "hipaaCompliant": "HIPAA Compliant",
+    "securePrivate": "Secure & Private",
+    "support24_7": "24/7 Support",
+    "alwaysAvailable": "Always Available",
+    "aboutInSiteTitle": "About InSite Health System",
+    "aboutInSiteDesc": "Learn more about our mission, vision, values, and the dedicated team behind our innovative healthcare technology solutions.",
+    "ourMission": "Our Mission",
+    "ourVision": "Our Vision", 
+    "ourValues": "Our Values",
+    "ourTeam": "Our Team",
+    "transformingTitle": "Transforming Healthcare Technology",
+    "transformingDesc1": "InSite Health System is dedicated to revolutionizing hospital operations through intelligent, real-time equipment visibility solutions.",
+    "transformingDesc2": "We provide cutting-edge technology that helps healthcare providers locate, track, and optimize their medical equipment usage.",
+    "transformingDesc3": "Our mission is to enhance patient care by ensuring critical equipment is always available when and where it's needed most.",
+    "keyHighlights": "Key Highlights:",
+    "realTimeTracking": "Real-time asset tracking and monitoring",
+    "seamlessIntegration": "Seamless integration with existing hospital systems",
+    "privacyFirst": "Privacy-first approach to sensitive healthcare data",
+    "scalableSolutions": "Scalable solutions for hospitals of all sizes",
+    "healthcareFacilities": "Healthcare Facilities",
+    "equipmentTracked": "Equipment Tracked",
+    "systemUptime": "System Uptime",
+    "supportAvailable": "Support Available"
+  },
+  "about": {
+    "title": "About InSite Health System",
+    "subtitle": "Transforming Healthcare Through Innovation",
+    "description": "InSite Health System is a leading provider of healthcare technology solutions, specializing in equipment management, real-time visibility, and operational efficiency improvements.",
+    "ourMission": "Our Mission",
+    "ourVision": "Our Vision",
+    "ourValues": "Our Values",
+    "breadcrumbHome": "Home",
+    "breadcrumbAbout": "About",
+    "processTitle": "Our Process",
+    "processSubtitle": "How We Work With Healthcare Facilities",
+    "processStep1": "Consultation",
+    "processStep1Desc": "We analyze your facility's unique equipment tracking needs and challenges",
+    "processStep2": "Planning", 
+    "processStep2Desc": "We design a customized solution tailored to your operational workflows",
+    "processStep3": "Implementation",
+    "processStep3Desc": "Our expert team deploys the system with minimal disruption to operations",
+    "processStep4": "Support",
+    "processStep4Desc": "We provide ongoing support and optimization for maximum efficiency",
+    "teamTitle": "Meet Our Expert Team",
+    "teamSubtitle": "Healthcare Technology Leaders",
+    "whyChooseTitle": "Why Choose InSite Health System?",
+    "whyChooseSubtitle": "Proven Results in Healthcare Technology",
+    "feature1Title": "Real-Time Visibility",
+    "feature1Desc": "Instant location tracking of all medical equipment across your facility",
+    "feature2Title": "Easy Integration", 
+    "feature2Desc": "Seamless integration with existing hospital management systems",
+    "feature3Title": "Proven ROI",
+    "feature3Desc": "Measurable return on investment with improved operational efficiency",
+    "feature4Title": "24/7 Support",
+    "feature4Desc": "Round-the-clock technical support from healthcare technology experts",
+    "statsTitle": "Projected Outcomes — Industry Benchmarks",
+    "statsSubtitle": "Based on published RTLS deployment data. Validated with you during the pilot.",
+    "stat1Number": "30–50%",
+    "stat1Label": "Search Time Reduction",
+    "stat1Desc": "Projected reduction in time staff spend locating equipment",
+    "stat2Number": "15–25%", 
+    "stat2Label": "Utilization Improvement",
+    "stat2Desc": "More equipment in use, less idle or lost",
+    "stat3Number": "2–4 hrs",
+    "stat3Label": "Nursing Hours Recovered/Shift",
+    "stat3Desc": "Time returned to patient care per nursing shift",
+    "stat4Number": "2–3",
+    "stat4Label": "Founding Partner Spots",
+    "stat4Desc": "Limited founding hospital partners being onboarded",
+    "ctaTitle": "Ready to Transform Your Operations?",
+    "ctaDesc": "Contact our team to learn how InSite Health System can improve your facility's efficiency.",
+    "getStarted": "Get Started Today",
+    "scheduleDemo": "Schedule a Demo",
+    "pilotProcessTitle": "INSITE HEALTH SYSTEMS PROCESS",
+    "pilotProcessSubtitle": "Our Pilot Process",
+    "pilotStep1Title": "Discover",
+    "pilotStep1Desc": "We begin with a focused conversation to understand: Your facility size and structure, Equipment categories to evaluate, Operational pain points, IT and compliance requirements",
+    "pilotStep2Title": "Deploy",
+    "pilotStep2Desc": "We design a controlled pilot program: Select 20–40 assets, Identify one unit or floor, Install secure gateways, Configure role-based access, Provide brief staff orientation",
+    "pilotStep3Title": "Validate",
+    "pilotStep3Desc": "During the pilot period: Real-time equipment visibility is active, Gateway and system health are monitored, Utilization data is collected, Workflow impact is measured",
+    "pilotStep4Title": "Scale",
+    "pilotStep4Desc": "At pilot conclusion: Review utilization metrics, Evaluate search time reduction, Identify capital optimization opportunities, Determine next-phase rollout strategy",
+    "discoverMore": "Discover more →",
+    "appDownloadTitle": "APP DOWNLOAD",
+    "appDownloadSubtitle": "We're Trusted by 1500+ Worldwide Clients",
+    "getItOnGooglePlay": "Get it on",
+    "googlePlay": "Google Play",
+    "downloadOnThe": "Download on the",
+    "appStore": "App Store",
+    "testimonialTitle": "TESTIMONIAL",
+    "testimonialSubtitle": "Our Best Clients",
+    "testimonials": [
+      {
+        "name": "Dr. Clarence Wesley",
+        "position": "CEO-Founder",
+        "comment": "InSite Health System has revolutionized our equipment management. The real-time visibility has improved our operational efficiency significantly."
+      },
+      {
+        "name": "Bennett Harper",
+        "position": "24/7 Support Manager",
+        "comment": "The support team is exceptional. They understand healthcare workflows and provide solutions that actually work in real hospital environments."
+      },
+      {
+        "name": "Dr. Nicolas Poran",
+        "position": "Chief Medical Officer",
+        "comment": "Our staff can now focus more on patient care instead of searching for equipment. It's been a game-changer for our hospital operations."
+      }
+    ]
+  },
+  "aboutTabs": {
+    "title": "About InSite Health System",
+    "subtitle": "Learn more about our mission, vision, values, and the dedicated team behind our innovative healthcare technology solutions.",
+    "keyHighlights": "Key Highlights:",
+    "mission": {
+      "label": "Our Mission",
+      "title": "Transforming Healthcare Technology",
+      "content": [
+        "InSite Health System is dedicated to revolutionizing hospital operations through intelligent, real-time equipment visibility solutions.",
+        "We provide cutting-edge technology that helps healthcare providers locate, track, and optimize their medical equipment usage.",
+        "Our mission is to enhance patient care by ensuring critical equipment is always available when and where it's needed most."
+      ],
+      "features": [
+        "Real-time asset tracking and monitoring",
+        "Seamless integration with existing hospital systems",
+        "Privacy-first approach to sensitive healthcare data",
+        "Scalable solutions for hospitals of all sizes"
+      ]
+    },
+    "vision": {
+      "label": "Our Vision",
+      "title": "The Future of Smart Healthcare",
+      "content": [
+        "We envision a healthcare ecosystem where technology seamlessly supports medical professionals in delivering exceptional patient care.",
+        "Our vision extends beyond simple tracking to creating intelligent systems that predict equipment needs and optimize hospital workflows.",
+        "We strive to be the global leader in healthcare technology solutions that prioritize both efficiency and patient safety."
+      ],
+      "features": [
+        "Predictive analytics for equipment management",
+        "AI-powered optimization recommendations",
+        "Global network of connected healthcare facilities",
+        "Sustainable and environmentally conscious technology"
+      ]
+    },
+    "values": {
+      "label": "Our Values",
+      "title": "Built on Trust and Innovation",
+      "content": [
+        "Patient safety and care quality are at the heart of everything we do.",
+        "We believe in transparency, reliability, and the power of technology to transform healthcare for the better.",
+        "Our commitment to privacy and security ensures that sensitive healthcare data is always protected."
+      ],
+      "features": [
+        "Patient-first approach to all solutions",
+        "Uncompromising commitment to data security",
+        "Continuous innovation and improvement",
+        "Collaborative partnership with healthcare professionals"
+      ]
+    },
+    "team": {
+      "label": "Our Team",
+      "title": "Healthcare Technology Experts",
+      "content": [
+        "Our diverse team combines deep healthcare expertise with cutting-edge technology skills.",
+        "We include former healthcare professionals, software engineers, data scientists, and industry veterans.",
+        "Together, we bring decades of experience in both healthcare operations and technology innovation."
+      ],
+      "features": [
+        "Former nurses and hospital administrators",
+        "Expert software engineers and developers",
+        "Data scientists and AI specialists",
+        "Healthcare industry thought leaders"
+      ]
+    },
+    "stats": [
+      { "number": "30–50%", "label": "Search Time Reduction*" },
+      { "number": "15–25%", "label": "Utilization Improvement*" },
+      { "number": "2–4 hrs", "label": "Nursing Hours Recovered/Shift*" },
+      { "number": "2–3", "label": "Founding Partner Spots Available" }
+    ]
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "Decades of real-world experience in healthcare, enterprise technology, and infrastructure — united by a mission to transform how hospitals operate.",
+    "specialties": "Specialties:",
+    "sectionPrincipal": "Principal",
+    "sectionExecutive": "Executive Leadership",
+    "sectionClinical": "Clinical Advisory Board",
+    "sectionClinicalBadge": "Planned",
+    "sectionClinicalNote": "InSite Health Solutions is forming a Clinical Advisory Board of experienced healthcare professionals to provide guidance on workflow alignment, usability, and operational impact within clinical environments.",
+    "sectionDev": "Development & Support Team",
+    "sectionDevNote": "Our dedicated software and systems team builds, deploys, and maintains enterprise-grade solutions with a commitment to security, reliability, and continuous improvement.",
+    "philosophy": "Leadership Philosophy",
+    "philosophyItems": [
+      "Experience over hype",
+      "Healthcare-first design",
+      "Security and compliance by default",
+      "Operational impact over theoretical innovation"
+    ],
+    "bioComingSoon": "Profile coming soon.",
+    "viewFullTeam": "Meet the Full Team",
+    "joinMission": "Ready to Join Our Mission?",
+    "joinDesc": "We're always looking for talented individuals who share our passion for improving healthcare through technology.",
+    "viewPositions": "View Open Positions",
+    "contactTeam": "Contact Our Team",
+    "stats": [
+      { "value": "30+", "label": "Years Combined Experience" },
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "2–3", "label": "Founding Partner Spots" },
+      { "value": "24/7", "label": "Support" }
+    ],
+    "members": {
+      "principal": [
+        {
+          "name": "Lilian Lynch",
+          "title": "President",
+          "role": "Strategic vision, brand, and organizational leadership",
+          "bio": "Lilian Lynch brings a powerful blend of executive leadership, strategic vision, and brand-building expertise, supported by a strong academic foundation in Portuguese and English literature. As President, she provides overall direction for organizational growth, market positioning, and cross-functional alignment. Her background enables her to articulate a clear vision, inspire teams, and ensure consistent, compelling communication across all channels and markets.",
+          "expertise": [
+            "Organizational strategy and leadership",
+            "Brand vision, positioning, and market strategy",
+            "Business development and growth initiatives",
+            "Digital strategy and communications oversight",
+            "Multilingual and cross-cultural leadership"
+          ]
+        }
+      ],
+      "executive": [
+        {
+          "name": "Isaiah Israel",
+          "title": "Director of Business Development & Deployment",
+          "role": "30+ years: healthcare, biotech, and enterprise systems",
+          "bio": "Isaiah Israel brings over 30 years of experience spanning healthcare, biotechnology, enterprise systems, and technology innovation. His leadership blends deep technical expertise with a strong understanding of operational challenges in healthcare settings, particularly around efficiency, asset utilization, and system interoperability. His approach emphasizes practical, low-risk innovation that delivers measurable value.",
+          "expertise": [
+            "Strategic vision and product direction",
+            "Healthcare market alignment",
+            "Executive stakeholder engagement",
+            "Regulatory and compliance positioning",
+            "Healthcare operations and biotech environments"
+          ]
+        },
+        {
+          "name": "Darrell Gaul",
+          "title": "Chief Technology Officer",
+          "role": "30+ years: enterprise architecture and scalable platforms",
+          "bio": "Darrell Gaul serves as Fractional CTO and brings more than 30 years of technology leadership experience supporting organizations across Southern California. He provides technical architecture oversight, platform scalability guidance, and engineering best-practice leadership. His experience ensures InSite's technology stack is secure, scalable, and enterprise-ready, meeting the expectations of hospital IT, compliance, and security teams.",
+          "expertise": [
+            "Enterprise system architecture",
+            "Scalable software platforms",
+            "Infrastructure modernization",
+            "Technology strategy and governance",
+            "Risk and technical debt management"
+          ]
+        },
+        {
+          "name": "Ricka Jones",
+          "title": "Senior Financial & Investment Advisor",
+          "role": "20+ years: $2.5B managed, public finance, CFO/CAO",
+          "bio": "Ricka Jones brings over 20 years of financial expertise, including managing more than $2.5 billion as an investment banker and overseeing over $1 billion in annual operating and capital budgets for public funds. She served as CFO, Chief Administrative Officer, and Assistant CAO for the City of Shreveport, and currently serves as an Advisor with RoseStone Wealth Advisors, a private wealth advisory practice of Ameriprise Financial.",
+          "expertise": [
+            "Investment banking and portfolio management",
+            "Public finance and large-scale budget oversight",
+            "Capital planning and operational financial strategy",
+            "Regulatory and fiduciary compliance",
+            "Wealth management and financial advisory"
+          ]
+        },
+        {
+          "name": "Kristin Grimes",
+          "title": "Medical Doctor — Clinical Advisor",
+          "role": "Hospital operations compliance and clinical guidance",
+          "bio": "Dr. Kristin Grimes serves as a Clinical Advisor, bringing frontline medical expertise to ensure InSite's solutions align with real-world clinical workflows and hospital operations compliance requirements.",
+          "expertise": [
+            "Clinical workflow alignment",
+            "Hospital operations compliance",
+            "Patient safety and care standards",
+            "Healthcare technology evaluation"
+          ]
+        },
+        {
+          "name": "Anthony Presley",
+          "title": "Deployment & Support Manager",
+          "role": "25+ years: cloud networking and enterprise infrastructure",
+          "bio": "Anthony Presley serves as Senior Cloud Networking Lead and brings over 25 years of experience supporting companies throughout Southern California and the Las Vegas region. He is responsible for cloud networking strategy, secure connectivity models, infrastructure resiliency, and alignment with hospital IT network standards.",
+          "expertise": [
+            "Cloud infrastructure design",
+            "Network architecture and optimization",
+            "Secure connectivity for regulated environments",
+            "Operational reliability and uptime",
+            "Hospital IT network alignment"
+          ]
+        }
+      ],
+      "clinical": [
+        {
+          "name": "Kristin Grimes",
+          "title": "Medical Doctor — Clinical Advisor",
+          "bio": "Dr. Kristin Grimes brings frontline medical expertise to ensure InSite's solutions align with real-world clinical workflows and hospital operations compliance requirements."
+        },
+        {
+          "name": "Lori Lapina",
+          "title": "PA-C AAHIVS | Clinical Advisor",
+          "bio": "Lori lapina brings strategic insight into healthcare systems, helping bridge technology solutions with real-world clinical needs. As an InSite Health Systems advisor, she guides alignment with hospital priorities and drives effective adoption."
+        }
+      ],
+      "dev": [
+        { "name": "Kayshundra Wilson", "title": "HR Director" },
+        { "name": "Rejoice Uahomo", "title": "Software Development Manager" },
+        { "name": "Olaiya Basit", "title": "Software Test Manager" },
+        { "name": "Justin Anyanwu", "title": "Lead Full-Stack Developer" },
+        { "name": "Ahmad Sheik", "title": "Lead Front-End Developer" },
+        { "name": "Emmanuel Uchewa", "title": "Lead UI/UX Graphic Designer" }
+      ]
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose",
+    "titleHighlight": " InSite Health System?",
+    "subtitle": "We're onboarding 2–3 hospitals as Founding Partners — white-glove deployment, zero long-term commitment, and measurable outcomes built in.",
+    "getStarted": "Get Started Today",
+    "scheduleDemo": "Schedule Demo",
+    "videoOverview": "2:30 Overview",
+    "videoTitle": "InSite Health System Overview",
+    "videoComingSoon": "Video Content Coming Soon",
+    "videoDesc": "InSite Health System Overview - Real-time Equipment Visibility Demo",
+    "features": [
+      {
+        "title": "Privacy & Security First",
+        "description": "HIPAA-compliant solutions with end-to-end encryption and robust security protocols."
+      },
+      {
+        "title": "Real-Time Visibility", 
+        "description": "Instant equipment location and status updates across your entire healthcare facility."
+      },
+      {
+        "title": "White-Glove Deployment",
+        "description": "Our team handles full installation, configuration, and staff orientation — zero burden on your IT or operations team."
+      },
+      {
+        "title": "Improved Efficiency",
+        "description": "Projected 30–50% reduction in equipment search time based on industry RTLS benchmarks."
+      },
+      {
+        "title": "Guaranteed ROI Measurement",
+        "description": "Custom dashboards track utilization gains and search time reduction. Measurable outcomes — or we extend the pilot."
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical support and customer success team availability."
+      }
+    ],
+    "stats": [
+      { "number": "30–50%", "label": "Projected Search Time Reduction*" },
+      { "number": "15–25%", "label": "Projected Utilization Improvement*" },
+      { "number": "2–4 hrs", "label": "Nursing Hours Recovered Per Shift*" },
+      { "number": "2–3", "label": "Founding Partner Spots Available" }
+    ],
+    "statsDisclaimer": "* Projected outcomes based on industry RTLS deployment benchmarks (Zebra Technologies). Validated during pilot.",
+    "measureSuccess": {
+      "title": "How We Measure Success",
+      "subtitle": "Every pilot begins with a baseline and ends with a clear verdict.",
+      "cards": [
+        {
+          "title": "Baseline Metrics",
+          "description": "Before deployment, we document current equipment search times, utilization rates, and staff workflows — so we have a clean before/after comparison.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "Target Outcomes",
+          "description": "Based on industry RTLS benchmarks, we set shared targets: 30–50% search time reduction, 15–25% utilization improvement, 2–4 nursing hours recovered per shift.",
+          "icon": "Target"
+        },
+        {
+          "title": "Success Criteria",
+          "description": "At pilot end, we review the data together. If targets are met, we extend the services. Your success is the prerequisite for ours.",
+          "icon": "CheckCircle"
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "title": "Expected Outcomes Based on Industry Data",
+    "subtitle": "Based on published RTLS deployment benchmarks. We validate these numbers with you — transparently — during the pilot.",
+    "stats": [
+      {
+        "number": 30,
+        "suffix": "–50%",
+        "label": "Search Time Reduction",
+        "description": "Typical reduction in time staff spend locating equipment"
+      },
+      {
+        "number": 15,
+        "suffix": "–25%",
+        "label": "Utilization Improvement",
+        "description": "More equipment in use, less idle or lost"
+      },
+      {
+        "number": 2,
+        "suffix": "–4 hrs",
+        "label": "Nursing Hours Recovered/Shift",
+        "description": "Time returned to patient care per nursing shift"
+      },
+      {
+        "number": 90,
+        "suffix": "%+",
+        "label": "Staff Adoption Rate",
+        "description": "Typical adoption within 30 days of deployment"
+      },
+      {
+        "number": 100,
+        "suffix": "%",
+        "label": "Asset Visibility",
+        "description": "All tagged assets visible in real-time on facility map"
+      },
+      {
+        "number": 5,
+        "suffix": " days",
+        "label": "Pilot Setup Timeline",
+        "description": "From agreement to live tracking in your facility"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Founding Partner Program",
+        "description": "2–3 hospitals selected as Founding Partners — geographic exclusivity, locked pricing, and direct product roadmap input."
+      },
+      {
+        "title": "White-Glove Delivery",
+        "description": "Our team handles everything: hardware installation, software configuration, staff training, and ongoing support."
+      },
+      {
+        "title": "No Long-Term Commitment",
+        "description": "Pilot with opt-out clause. ROI is quantifiable — we discuss/continue service with successful pilots."
+      }
+    ],
+    "ctaTitle": "Become a Founding Hospital Partner",
+    "ctaDesc": "Limited to 2–3 hospitals. Founding partners receive geographic exclusivity, co-branding opportunities, and locked-in pricing — in exchange for being first.",
+    "getStarted": "Get Started Today",
+    "scheduleDemo": "Schedule a Demo"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about InSite Health System's equipment visibility solutions and implementation process.",
+    "stillHaveQuestions": "Still Have Questions?",
+    "stillHaveQuestionsDesc": "Our healthcare technology experts are here to help. Get personalized answers and learn how InSite can benefit your specific facility.",
+    "contactTeam": "Contact Our Team",
+    "scheduleDemo": "Schedule a Demo",
+    "questions": [
+      {
+        "question": "How does InSite Health System track medical equipment?",
+        "answer": "InSite uses advanced IoT sensors and RFID technology to provide real-time location tracking of medical equipment throughout your facility. Our sensors are designed specifically for healthcare environments and integrate seamlessly with existing hospital infrastructure without disrupting daily operations."
+      },
+      {
+        "question": "Is the system HIPAA compliant and secure?",
+        "answer": "Yes, InSite Health System is designed to be fully HIPAA compliant with end-to-end encryption, secure data transmission, and comprehensive audit trails. We implement industry-leading security measures to protect sensitive healthcare data."
+      },
+      {
+        "question": "How long does implementation typically take?",
+        "answer": "Implementation varies based on facility size and complexity, but our pilot can be live in as few as 5 days. Our white-glove process includes site assessment, hardware installation, staff orientation, and system configuration — all handled by our team with minimal disruption to patient care."
+      },
+      {
+        "question": "Can InSite integrate with our existing hospital management system?",
+        "answer": "Absolutely. InSite is designed to integrate with major hospital management systems including Epic, Cerner, Meditech, and others. Our API-first approach ensures seamless data flow between systems and maintains your existing workflows."
+      },
+      {
+        "question": "What types of medical equipment can be tracked?",
+        "answer": "InSite can track virtually any medical equipment including wheelchairs, IV pumps, ventilators, patient monitors, beds, surgical instruments, and mobile diagnostic equipment. Our flexible sensor technology adapts to different equipment types and sizes."
+      },
+      {
+        "question": "How much does InSite Health System cost?",
+        "answer": "Pricing is customized based on your facility size, number of assets, and specific requirements. We offer flexible subscription models with no upfront hardware costs. Contact us for a personalized quote and ROI analysis based on your needs."
+      },
+      {
+        "question": "What kind of support and training do you provide?",
+        "answer": "We provide comprehensive 24/7 technical support, initial staff training, ongoing education programs, and dedicated customer success management. Our support team includes healthcare technology specialists who understand hospital operations."
+      },
+      {
+        "question": "Can the system help with regulatory compliance and reporting?",
+        "answer": "Yes, InSite automatically generates compliance reports for Joint Commission, CMS, and other regulatory requirements. The system maintains detailed audit trails, equipment utilization reports, and maintenance scheduling to support your compliance efforts."
+      },
+      {
+        "question": "What happens if equipment leaves the designated area?",
+        "answer": "InSite provides real-time alerts when equipment moves outside designated zones or leaves the facility. You can set custom alert rules, notification preferences, and automated workflows to ensure critical equipment stays where it's needed."
+      },
+      {
+        "question": "How does InSite improve patient care and operational efficiency?",
+        "answer": "By reducing equipment search time — projected at 30–50% based on industry RTLS benchmarks — InSite allows staff to focus more on patient care. The system also optimizes equipment utilization, reduces equipment loss, improves maintenance scheduling, and provides data-driven insights for better resource allocation. All outcomes are measured transparently during the pilot."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Healthcare Solutions",
+    "equipmentTracking": "Equipment Tracking",
+    "equipmentTrackingDesc": "Real-time location and status monitoring of medical equipment",
+    "dataAnalytics": "Data Analytics", 
+    "dataAnalyticsDesc": "Advanced reporting and predictive analytics for operational insights",
+    "integration": "System Integration",
+    "integrationDesc": "Seamless integration with existing hospital management systems",
+    "support": "24/7 Support",
+    "supportDesc": "Round-the-clock technical support and maintenance services"
+  },
+  "blog": {
+    "title": "Healthcare Technology Insights",
+    "subtitle": "Stay informed with the latest trends, best practices, and innovations in healthcare technology and equipment management.",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "comments": "Comments",
+    "publishedOn": "Published on",
+    "author": "Author",
+    "category": "Category",
+    "tags": "Tags",
+    "categoriesLabel": "Categories",
+    "recentPosts": "Recent Posts",
+    "searchPlaceholder": "Search articles...",
+    "noResults": "No articles found matching your search.",
+    "loadMore": "Load More Articles",
+    "viewAllPosts": "View All Posts",
+    "featured": "Featured",
+    "allPosts": "All Posts",
+    "aboutAuthor": "About the Author",
+    "viewAllPostsBy": "View all posts by {{name}} →",
+    "leaveComment": "Leave a Comment",
+    "commentName": "Name",
+    "commentEmail": "Email",
+    "commentWebsite": "Website",
+    "commentMessage": "Comment",
+    "postComment": "Post Comment",
+    "shareLabel": "Share",
+    "youMightAlsoLike": "You Might Also Like",
+    "article": "Article",
+    "loadingArticle": "Loading article...",
+    "translating": "Translating...",
+    "notFound": "Article not found",
+    "notFoundDesc": "The article you are looking for does not exist or has been removed.",
+    "commentSubmitted": "Your comment has been submitted!",
+    "commentError": "Failed to submit comment. Please try again.",
+    "subscribing": "Subscribing...",
+    "subscribeSuccess": "Successfully subscribed! Check your inbox.",
+    "subscribeError": "Something went wrong. Please try again.",
+    "noPostsInCategory": "No posts found in this category.",
+    "noPostsFound": "No posts found",
+    "noPostsInCategoryDesc": "There are no posts in the \"{{name}}\" category yet.",
+    "noPostsTaggedDesc": "There are no posts tagged with \"{{tag}}\" yet.",
+    "backToAllPosts": "Back to All Posts",
+    "browseAllPosts": "Browse All Posts",
+    "articleCount_one": "{{count}} article in this category",
+    "articleCount_other": "{{count}} articles in this category",
+    "tagCount_one": "{{count}} article tagged with this topic",
+    "tagCount_other": "{{count}} articles tagged with this topic",
+    "tagLabel": "Tag",
+    "failedToLoad": "Failed to load posts. Please try again later.",
+    "tryAgain": "Try again",
+    "loadingTags": "Loading tags...",
+    "newsletter": {
+      "title": "Stay Updated with Healthcare Technology Insights",
+      "description": "Subscribe to our newsletter and get the latest articles, case studies, and industry insights delivered directly to your inbox.",
+      "placeholder": "Enter your email address",
+      "subscribe": "Subscribe Now",
+      "privacy": "No spam, unsubscribe at any time. Privacy policy applies."
+    },
+    "categories": {
+      "healthcareTech": "Healthcare Technology",
+      "digitalHealth": "Digital Health",
+      "compliance": "Compliance",
+      "assetManagement": "Asset Management", 
+      "telemedicine": "Telemedicine",
+      "mobileHealth": "Mobile Health",
+      "dataAnalytics": "Data Analytics",
+      "patientSafety": "Patient Safety",
+      "healthcareEconomics": "Healthcare Economics",
+      "caseStudy": "Case Study",
+      "technology": "Technology"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch with InSite Health System",
+    "subtitle": "Ready to transform your healthcare facility's equipment management? Contact our experts to schedule a demo or learn more about our solutions.",
+    "contactInformation": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "businessHours": "Business Hours",
+    "responseTime": "Response Time",
+    "supportAvailable": "Support Available",
+    "scheduleAppointment": "Schedule Appointment",
+    "generalContact": "General Contact",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "organization": "Organization",
+    "appointmentType": "Appointment Type",
+    "preferredDate": "Preferred Date",
+    "preferredTime": "Preferred Time",
+    "subject": "Subject",
+    "message": "Message",
+    "additionalInformation": "Additional Information",
+    "sendMessage": "Send Message",
+    "scheduleAppointmentBtn": "Schedule Appointment",
+    "required": "*",
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "Enter your email",
+      "phone": "Enter your phone number",
+      "organization": "Hospital or organization name",
+      "appointmentType": "Select appointment type",
+      "preferredTime": "Select preferred time",
+      "subject": "Enter message subject",
+      "message": "Enter your message",
+      "additionalInfo": "Tell us about your specific needs or questions"
+    },
+    "appointmentTypes": {
+      "productDemo": "Product Demo",
+      "consultation": "Consultation",
+      "implementationPlanning": "Implementation Planning",
+      "technicalSupport": "Technical Support",
+      "partnershipDiscussion": "Partnership Discussion",
+      "other": "Other"
+    },
+    "timeSlots": {
+      "9am": "9:00 AM - 10:00 AM",
+      "10am": "10:00 AM - 11:00 AM", 
+      "11am": "11:00 AM - 12:00 PM",
+      "1pm": "1:00 PM - 2:00 PM",
+      "2pm": "2:00 PM - 3:00 PM",
+      "3pm": "3:00 PM - 4:00 PM",
+      "4pm": "4:00 PM - 5:00 PM"
+    },
+    "contactDetails": {
+      "addressFull": "123 Healthcare Technology Blvd\nSuite 500\nMedical District, CA 90210",
+      "salesPhone": "Sales: (555) 123-4567",
+      "supportPhone": "Support: (555) 123-4568",
+      "salesEmail": "sales@insitehealth.com",
+      "supportEmail": "support@insitehealth.com",
+      "businessHours": "Monday - Friday: 8:00 AM - 6:00 PM PST",
+      "emergencySupport": "24/7 Emergency Support Available"
+    },
+    "quickStats": {
+      "responseTime": "<1hr",
+      "responseTimeLabel": "Response Time",
+      "support247": "24/7",
+      "supportLabel": "Support Available"
+    },
+    "messages": {
+      "success": "Thank you! Your {{type}} has been sent successfully. We'll get back to you within 24 hours.",
+      "appointmentSuccess": "appointment request",
+      "messageSuccess": "message",
+      "error": "Sorry, there was an error sending your message. Please try again or contact us directly."
+    },
+    "pageTitle": "Contact",
+    "breadcrumbHome": "Home",
+    "processTitle": "INSITE HEALTH SYSTEMS PROCESS",
+    "processSubtitle": "Our Pilot Process",
+    "getInTouch": "GET IN TOUCH",
+    "freePilot": "Get Free Pilot Consultation?",
+    "namePlaceholder": "Name*",
+    "selectPatient": "Select Patient*",
+    "newPatient": "New Patient",
+    "existingPatient": "Existing Patient",
+    "emailPlaceholder": "Email*",
+    "phonePlaceholder": "Phone*",
+    "selectService": "Select Service*",
+    "commentPlaceholder": "Your Comment...",
+    "sendRequest": "Send Request",
+    "sending": "Sending...",
+    "successMsg": "Request sent! We'll contact you within 24 hours.",
+    "errorMsg": "Something went wrong. Please try again or call us directly.",
+    "infoPhone": "Phone",
+    "infoEmail": "Email",
+    "infoAddress": "Address",
+    "infoHours": "Business Hours",
+    "services": {
+      "assetTracking": "Asset Tracking",
+      "siteMonitoring": "Site Monitoring",
+      "capitalPlanning": "Capital Planning",
+      "mobileSecurity": "Mobile Security",
+      "pilotConsultation": "Pilot Consultation"
+    }
+  },
+  "footer": {
+    "description": "Leading healthcare technology solutions provider focused on equipment management and operational efficiency.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to get the latest updates and insights",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "stayConnected": "Stay Connected with Healthcare Innovation",
+    "stayConnectedDesc": "Get the latest updates on healthcare technology trends, product announcements, and industry insights delivered to your inbox.",
+    "emailPlaceholder": "Enter your email address",
+    "tagline": "Real-time Equipment Visibility for Modern Hospitals",
+    "transformingDesc": "Transforming healthcare operations through intelligent equipment tracking and visibility solutions. Currently onboarding Founding Hospital Partners.",
+    "certifications": "Certifications & Compliance",
+    "copyright": "© {{year}} InSite Health System. All rights reserved.",
+    "cookiePolicy": "Cookie Policy",
+    "hipaaCompliance": "HIPAA Compliance",
+    "security": "Security",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "support": "Support",
+    "company": "Company",
+    "subscribeSuccess": "Successfully subscribed! Check your email for confirmation.",
+    "subscribeError": "Error subscribing. Please try again.",
+    "links": {
+      "forNurses": "For Nurses",
+      "forFacilities": "For Facilities Management",
+      "forExecutives": "For Executives",
+      "equipmentTracking": "Equipment Tracking",
+      "realTimeVisibility": "Real-time Visibility",
+      "analyticsDashboard": "Analytics Dashboard",
+      "caseStudies": "Case Studies",
+      "whitePapers": "White Papers",
+      "documentation": "Documentation",
+      "apiReference": "API Reference",
+      "integrationGuides": "Integration Guides",
+      "helpCenter": "Help Center",
+      "contactSupport": "Contact Support",
+      "systemStatus": "System Status",
+      "training": "Training",
+      "implementation": "Implementation",
+      "communityForum": "Community Forum",
+      "aboutUs": "About Us",
+      "ourTeam": "Our Team",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners",
+      "investors": "Investors"
+    },
+    "certLabels": {
+      "hipaa": "HIPAA Compliant",
+      "soc2": "SOC 2 In Progress",
+      "iso": "ISO 27001",
+      "award": "Founding Partner Program Open"
+    }
+  },
+  "login": {
+    "title": "Welcome Back", 
+    "subtitle": "Sign in to manage your blog content",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In to Dashboard",
+    "signingIn": "Signing in...",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "demoAccounts": "Quick Login - Demo Accounts:",
+    "adminAccount": "Admin Account",
+    "editorAccount": "Editor Account", 
+    "authorAccount": "Author Account",
+    "clickToUse": "Click to use",
+    "tip": "Tip: Click any demo account above to auto-fill credentials",
+    "backToWebsite": "Back to Website",
+    "needHelp": "Need help? Contact your system administrator"
+  },
+  "dashboard": {
+    "title": "Blog Management Dashboard",
+    "welcome": "Welcome back",
+    "totalPosts": "Total Posts",
+    "publishedPosts": "Published Posts", 
+    "draftPosts": "Draft Posts",
+    "totalViews": "Total Views",
+    "createNewPost": "Create New Post",
+    "managePosts": "Manage Posts",
+    "recentActivity": "Recent Activity",
+    "quickStats": "Quick Stats"
+  },
+  "editor": {
+    "createNewPost": "Create New Post",
+    "editPost": "Edit Post",
+    "title": "Title",
+    "excerpt": "Excerpt",
+    "content": "Content", 
+    "category": "Category",
+    "tags": "Tags",
+    "featuredImage": "Featured Image",
+    "seoSettings": "SEO Settings",
+    "metaTitle": "Meta Title",
+    "metaDescription": "Meta Description",
+    "keywords": "Keywords",
+    "publishSettings": "Publish Settings",
+    "status": "Status",
+    "draft": "Draft",
+    "published": "Published", 
+    "scheduled": "Scheduled",
+    "publishDate": "Publish Date",
+    "saveAsDraft": "Save as Draft",
+    "update": "Update Post",
+    "multiLanguageEditor": "Multi-Language Blog Editor",
+    "titlePlaceholder": "Enter the blog post title...",
+    "excerptPlaceholder": "Enter a brief excerpt...",
+    "contentPlaceholder": "Write your blog content here...",
+    "tagsPlaceholder": "Enter tags separated by commas",
+    "tagsHelper": "Separate tags with commas (e.g., AI, Healthcare, Technology)",
+    "saveAllLanguages": "Save All Languages",
+    "translationTips": "Translation Tips",
+    "tip1": "English is the base language - always create content in English first",
+    "tip2": "Add translations in other languages to reach a wider audience",
+    "tip3": "Users will see the best available language version automatically",
+    "permalink": "Permalink",
+    "permalinkPlaceholder": "post-url-slug",
+    "permalinkEdit": "Edit",
+    "permalinkDone": "OK",
+    "postDetails": "Post Details",
+    "publish": "Publish",
+    "publishPanel": "Publish",
+    "saveDraft": "Save Draft",
+    "publishNow": "Publish Now",
+    "updatePost": "Update Post",
+    "switchToDraft": "Switch to Draft",
+    "scheduledFor": "Scheduled for",
+    "schedulePanel": "Schedule",
+    "publishStatus": "Publish Status",
+    "schedulePost": "Schedule Post",
+    "updateSchedule": "Update Schedule",
+    "publishedNow": "Published",
+    "archived": "Archived",
+    "publishDatePlaceholder": "Select publish date & time",
+    "featuredImagePanel": "Featured Image",
+    "featuredImageUrl": "Image URL",
+    "featuredImageUrlPlaceholder": "https://… or paste URL",
+    "featuredImageUpload": "Upload Image",
+    "featuredImageAlt": "Alt Text",
+    "featuredImageAltPlaceholder": "Describe the image for accessibility",
+    "featuredImageRemove": "Remove image",
+    "featuredImageDrop": "Drag & drop or click to upload",
+    "featuredImageFormats": "PNG, JPG, GIF, WebP — max 10 MB",
+    "categoriesPanel": "Categories",
+    "addNewCategory": "Add new category",
+    "addCategoryPlaceholder": "New category name…",
+    "addCategoryBtn": "Add",
+    "authorPanel": "Author",
+    "authorName": "Author Name",
+    "authorNamePlaceholder": "Full name",
+    "authorSlug": "Author Slug",
+    "authorSlugPlaceholder": "author-url-slug",
+    "authorAvatar": "Avatar URL",
+    "authorAvatarPlaceholder": "https://…",
+    "authorBio": "Bio",
+    "authorBioPlaceholder": "Short author biography…",
+    "seoPanel": "SEO & Meta",
+    "metaTitlePlaceholder": "SEO title (leave blank to use post title)",
+    "metaDescriptionPlaceholder": "Short description shown in search results (150–160 chars recommended)",
+    "focusKeyword": "Focus Keyword",
+    "focusKeywordPlaceholder": "Primary keyword for this post",
+    "seoPreview": "Search Preview",
+    "readingTime": "Reading time",
+    "readingTimeMin": "min read",
+    "wordCount": "words",
+    "charCount": "characters"
+  },
+  "common": {
+    "startYourPilot": "Start Your Pilot",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sortBy": "Sort by",
+    "date": "Date",
+    "title": "Title",
+    "status": "Status",
+    "actions": "Actions",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "results": "results",
+    "editingIn": "Editing in",
+    "addLanguage": "+ Add Language",
+    "translationsAvailable": "Translations available",
+    "editingLanguage": "Editing language",
+    "back": "Back",
+    "editingAs": "Editing as",
+    "selectLanguage": "Select Language",
+    "languageSaved": "Language preference is saved automatically"
+  },
+  "errors": {
+    "somethingWentWrong": "Something went wrong",
+    "pageNotFound": "Page not found",
+    "accessDenied": "Access denied",
+    "invalidCredentials": "Invalid email or password",
+    "networkError": "Network error. Please try again.",
+    "requiredField": "This field is required",
+    "invalidEmail": "Please enter a valid email address"
+  }
+}

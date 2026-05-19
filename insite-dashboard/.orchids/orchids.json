@@ -1,0 +1,8 @@
+{
+  "startupCommands": [
+    "npm install; npm run dev -- --host 0.0.0.0 --port 5173",
+    "cd /home/user/ilocate-admin && npm install; npm run dev"
+  ],
+  "projectId": "e1f6a294-12e3-449e-9f50-9e4cc05b3605",
+  "templateId": "any"
+}

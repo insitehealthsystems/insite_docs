@@ -13,3 +13,9 @@ insite-nextjs/.env.local
 # ilocate-backend — exclude secrets and modules
 ilocate-backend/node_modules
 ilocate-backend/.env
+
+# insite-dashboard (Vite) — exclude build output and secrets
+insite-dashboard/node_modules
+insite-dashboard/.env
+insite-dashboard/dist
+insite-dashboard/.git
